@@ -1,0 +1,5592 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "L_PRAISON",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_PRAISON\\UPSTREAM_CLONE",
+  "git": {
+   "head": "d9453cb8e33b40665a3693c1a6ed807adacf24e3",
+   "url": "https://github.com/MervinPraison/PraisonAI.git",
+   "branch": "HEAD",
+   "committed_at": "2026-09-29T10:57:32Z"
+  }
+ },
+ "metrics": {
+  "files_total": 6587,
+  "source_files_scanned": 5734,
+  "lines_of_code": 1396199,
+  "languages": {
+   ".py": 4809,
+   ".ts": 830,
+   ".md": 162,
+   ".yaml": 117,
+   ".ipynb": 107,
+   ".rs": 102,
+   ".png": 89,
+   ".json": 61,
+   ".mjs": 43,
+   "(none)": 38,
+   ".sh": 33,
+   ".svg": 28,
+   ".toml": 22,
+   ".js": 17,
+   ".txt": 15
+  }
+ },
+ "licence": {
+  "spdx": "MIT",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 253,
+  "unique": 120,
+  "by_ecosystem": {
+   "cargo": 123,
+   "npm": 55,
+   "pypi": 75
+  },
+  "list": [
+   {
+    "ecosystem": "npm",
+    "name": "@modelcontextprotocol/sdk",
+    "version": "^1.12.1",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "1.8.4",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fast-xml-parser",
+    "version": "^4.5.1",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "openai",
+    "version": "^4.81.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ai-sdk/anthropic",
+    "version": "^3.0.1",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ai-sdk/google",
+    "version": "^3.0.1",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ai-sdk/openai",
+    "version": "^3.0.1",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/figlet",
+    "version": "^1.7.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jest",
+    "version": "^29.5.14",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^22.12.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@typescript-eslint/eslint-plugin",
+    "version": "^8.22.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@typescript-eslint/parser",
+    "version": "^8.22.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ai",
+    "version": "^6.0.3",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "^9.19.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jest",
+    "version": "^29.7.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^5.0.5",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ts-jest",
+    "version": "^29.2.5",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ts-node",
+    "version": "^10.9.2",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ts-node-dev",
+    "version": "^2.0.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^5.7.3",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@jest/types",
+    "version": "^29.6.3",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@jest/globals",
+    "version": "^29.7.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ai-sdk/provider-utils",
+    "version": "^2.2.8",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@opentelemetry/api",
+    "version": "^1.9.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "esbuild",
+    "version": "^0.25.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ai-sdk/anthropic",
+    "version": ">=1.0.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ai-sdk/google",
+    "version": ">=1.0.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ai-sdk/openai",
+    "version": ">=1.0.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ai",
+    "version": ">=4.0.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@airweave/sdk",
+    "version": ">=0.1.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mendable/firecrawl-js",
+    "version": ">=1.0.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "bedrock-agentcore",
+    "version": ">=0.1.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "better-sqlite3",
+    "version": "^12.6.2",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "boxen",
+    "version": "^7.1.1",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "chalk",
+    "version": "^4.1.2",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "cli-table3",
+    "version": "^0.6.3",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "figlet",
+    "version": "^1.7.0",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ora",
+    "version": "^5.4.1",
+    "source_file": "src/praisonai-ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonaiagents",
+    "version": ">=1.6.126",
+    "source_file": "src/praisonai-train/pyproject.toml",
+    "raw": "praisonaiagents>=1.6.126"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "litellm",
+    "version": ">=1.0",
+    "source_file": "src/praisonai-train/pyproject.toml",
+    "raw": "litellm>=1.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rich",
+    "version": ">=13.7",
+    "source_file": "src/praisonai-train/pyproject.toml",
+    "raw": "rich>=13.7"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "typer",
+    "version": ">=0.12.0",
+    "source_file": "src/praisonai-train/pyproject.toml",
+    "raw": "typer>=0.12.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "click",
+    "version": ">=8.4.2",
+    "source_file": "src/praisonai-train/pyproject.toml",
+    "raw": "click>=8.4.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "PyYAML",
+    "version": ">=6.0",
+    "source_file": "src/praisonai-train/pyproject.toml",
+    "raw": "PyYAML>=6.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonaiagents",
+    "version": ">=1.6.126",
+    "source_file": "src/praisonai-sandbox/pyproject.toml",
+    "raw": "praisonaiagents>=1.6.126"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rich",
+    "version": ">=13.7",
+    "source_file": "src/praisonai-sandbox/pyproject.toml",
+    "raw": "rich>=13.7"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "typer",
+    "version": ">=0.12.0",
+    "source_file": "src/praisonai-sandbox/pyproject.toml",
+    "raw": "typer>=0.12.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "click",
+    "version": ">=8.4.2",
+    "source_file": "src/praisonai-sandbox/pyproject.toml",
+    "raw": "click>=8.4.2"
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "resolver",
+    "version": "2",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.2.0",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2021",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "license",
+    "version": "MIT",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "repository",
+    "version": "https://github.com/MervinPraison/PraisonAI",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "homepage",
+    "version": "https://docs.praison.ai",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "High-performance, agentic AI framework for Rust",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tokio",
+    "version": "1",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "async-trait",
+    "version": "0.1",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "futures",
+    "version": "0.3",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde",
+    "version": "1",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde_json",
+    "version": "1",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde_yaml",
+    "version": "0.9",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "thiserror",
+    "version": "2",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "anyhow",
+    "version": "1",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "clap",
+    "version": "4",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "rig-core",
+    "version": "0.9",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "reqwest",
+    "version": "0.12",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tracing",
+    "version": "0.1",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tracing-subscriber",
+    "version": "0.3",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "uuid",
+    "version": "1",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "ratatui",
+    "version": "0.29",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "crossterm",
+    "version": "0.28",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tokio-test",
+    "version": "0.4",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "syn",
+    "version": "2",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "quote",
+    "version": "1",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "proc-macro2",
+    "version": "1",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "panic",
+    "version": "abort",
+    "source_file": "src/praisonai-rust/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "praisonai-derive",
+    "source_file": "src/praisonai-rust/praisonai-derive/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "Procedural macros for PraisonAI - #[tool] decorator",
+    "source_file": "src/praisonai-rust/praisonai-derive/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "praisonai-cli",
+    "source_file": "src/praisonai-rust/praisonai-cli/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "CLI for PraisonAI - chat, run, prompt commands",
+    "source_file": "src/praisonai-rust/praisonai-cli/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "praisonai-rust",
+    "source_file": "src/praisonai-rust/praisonai-cli/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "src/main.rs",
+    "source_file": "src/praisonai-rust/praisonai-cli/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "praisonai",
+    "version": "0.2.0",
+    "source_file": "src/praisonai-rust/praisonai-cli/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.29",
+    "source_file": "src/praisonai-rust/praisonai-cli/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.28",
+    "source_file": "src/praisonai-rust/praisonai-cli/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "praisonai",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "Core library for PraisonAI - Agent, Tools, Workflows",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "chrono",
+    "version": "0.4",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "dirs",
+    "version": "5",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "regex",
+    "version": "1",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "once_cell",
+    "version": "1",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "lazy_static",
+    "version": "1",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "toml",
+    "version": "0.8",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "praisonai-derive",
+    "version": "0.2.0",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.29",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.28",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "basic_agent",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../examples/basic_agent.rs",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "with_tools",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../examples/with_tools.rs",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "multi_agent",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../examples/multi_agent.rs",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "memory_example",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../examples/memory_example.rs",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "config_example",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../examples/config_example.rs",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "workflow_patterns",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "../examples/workflow_patterns.rs",
+    "source_file": "src/praisonai-rust/praisonai/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ai-sdk/cohere",
+    "version": "^4.0.37",
+    "source_file": "src/praisonai-mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ai-sdk/google",
+    "version": "^4.0.63",
+    "source_file": "src/praisonai-mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ai-sdk/openai",
+    "version": "^4.0.57",
+    "source_file": "src/praisonai-mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ai",
+    "version": "^7.0.91",
+    "source_file": "src/praisonai-mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "praisonai",
+    "version": "file:../praisonai-ts",
+    "source_file": "src/praisonai-mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tauri-apps/cli",
+    "version": "^2",
+    "source_file": "src/praisonai-mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^22.20.1",
+    "source_file": "src/praisonai-mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "esbuild",
+    "version": "^0.25.0",
+    "source_file": "src/praisonai-mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "playwright",
+    "version": "^1.62.1",
+    "source_file": "src/praisonai-mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^5.7.3",
+    "source_file": "src/praisonai-mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "praisonai-mobile",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.1.0",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2021",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "license",
+    "version": "MIT",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "PraisonAI mobile shell.",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "praisonai_mobile_lib",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "src/lib.rs",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "praisonai-mobile",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "src/main.rs",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tauri-build",
+    "version": "2",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tauri",
+    "version": "2",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tauri-plugin-opener",
+    "version": "2",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde",
+    "version": "1",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde_json",
+    "version": "1",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "log",
+    "version": "0.4",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde_json",
+    "version": "1",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tauri",
+    "version": "2",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "opt-level",
+    "version": "s",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "strip",
+    "version": "debuginfo",
+    "source_file": "src/praisonai-mobile/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "tauri-plugin-secrets",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/secrets/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.1.0",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/secrets/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2021",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/secrets/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "license",
+    "version": "MIT",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/secrets/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "The platform secret store -- iOS/macOS Keychain and the Android Keystore -- behind one Rust API.",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/secrets/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "links",
+    "version": "tauri-plugin-secrets",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/secrets/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "tauri_plugin_secrets",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/secrets/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tauri",
+    "version": "2",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/secrets/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde",
+    "version": "1",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/secrets/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde_json",
+    "version": "1",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/secrets/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "log",
+    "version": "0.4",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/secrets/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "security-framework",
+    "version": "3",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/secrets/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "security-framework-sys",
+    "version": "2",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/secrets/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tauri-plugin",
+    "version": "2",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/secrets/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "tauri-plugin-back-gesture",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/back-gesture/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.1.0",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/back-gesture/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2021",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/back-gesture/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "license",
+    "version": "MIT",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/back-gesture/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "Delivers Android's system back gesture to Rust, and lets Rust hand it back to the system.",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/back-gesture/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "links",
+    "version": "tauri-plugin-back-gesture",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/back-gesture/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "tauri_plugin_back_gesture",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/back-gesture/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tauri",
+    "version": "2",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/back-gesture/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde",
+    "version": "1",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/back-gesture/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde_json",
+    "version": "1",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/back-gesture/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "log",
+    "version": "0.4",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/back-gesture/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tauri-plugin",
+    "version": "2",
+    "source_file": "src/praisonai-mobile/src-tauri/plugins/back-gesture/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonaiagents",
+    "version": ">=1.6.126",
+    "source_file": "src/praisonai-mcp/pyproject.toml",
+    "raw": "praisonaiagents>=1.6.126"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "mcp",
+    "version": ">=1.20.0",
+    "source_file": "src/praisonai-mcp/pyproject.toml",
+    "raw": "mcp>=1.20.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rich",
+    "version": ">=13.7",
+    "source_file": "src/praisonai-mcp/pyproject.toml",
+    "raw": "rich>=13.7"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "typer",
+    "version": ">=0.12.0",
+    "source_file": "src/praisonai-mcp/pyproject.toml",
+    "raw": "typer>=0.12.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "click",
+    "version": ">=8.4.2",
+    "source_file": "src/praisonai-mcp/pyproject.toml",
+    "raw": "click>=8.4.2"
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsdom",
+    "version": "^30.0.1",
+    "source_file": "src/praisonai-desktop/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "praisonai-desktop",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "version",
+    "version": "0.1.0",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "edition",
+    "version": "2021",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "license",
+    "version": "MIT",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "description",
+    "version": "PraisonAI desktop shell.",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "praisonai_desktop_core",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "src/lib.rs",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "name",
+    "version": "praisonai-desktop",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "path",
+    "version": "src/main.rs",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tauri-build",
+    "version": "2",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tauri",
+    "version": "2",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tauri-plugin-opener",
+    "version": "2",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tauri-plugin-window-state",
+    "version": "2",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "tauri-plugin-single-instance",
+    "version": "2",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde",
+    "version": "1",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "serde_json",
+    "version": "1",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "opt-level",
+    "version": "s",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "cargo",
+    "name": "panic",
+    "version": "abort",
+    "source_file": "src/praisonai-desktop/src-tauri/Cargo.toml",
+    "raw": ""
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonaiagents",
+    "version": ">=1.6.126",
+    "source_file": "src/praisonai-deploy/pyproject.toml",
+    "raw": "praisonaiagents>=1.6.126"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rich",
+    "version": ">=13.7",
+    "source_file": "src/praisonai-deploy/pyproject.toml",
+    "raw": "rich>=13.7"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "typer",
+    "version": ">=0.12.0",
+    "source_file": "src/praisonai-deploy/pyproject.toml",
+    "raw": "typer>=0.12.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "click",
+    "version": ">=8.4.2",
+    "source_file": "src/praisonai-deploy/pyproject.toml",
+    "raw": "click>=8.4.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "PyYAML",
+    "version": ">=6.0",
+    "source_file": "src/praisonai-deploy/pyproject.toml",
+    "raw": "PyYAML>=6.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pydantic",
+    "version": ">=2.0",
+    "source_file": "src/praisonai-deploy/pyproject.toml",
+    "raw": "pydantic>=2.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonaiagents",
+    "version": ">=1.6.126",
+    "source_file": "src/praisonai-code/pyproject.toml",
+    "raw": "praisonaiagents>=1.6.126"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rich",
+    "version": ">=13.7",
+    "source_file": "src/praisonai-code/pyproject.toml",
+    "raw": "rich>=13.7"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "typer",
+    "version": ">=0.12.0",
+    "source_file": "src/praisonai-code/pyproject.toml",
+    "raw": "typer>=0.12.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "click",
+    "version": ">=8.4.2",
+    "source_file": "src/praisonai-code/pyproject.toml",
+    "raw": "click>=8.4.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "textual",
+    "version": ">=0.47.0",
+    "source_file": "src/praisonai-code/pyproject.toml",
+    "raw": "textual>=0.47.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "PyYAML",
+    "version": ">=6.0",
+    "source_file": "src/praisonai-code/pyproject.toml",
+    "raw": "PyYAML>=6.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "python-dotenv",
+    "version": ">=0.19.0",
+    "source_file": "src/praisonai-code/pyproject.toml",
+    "raw": "python-dotenv>=0.19.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "litellm",
+    "version": ">=1.83.14",
+    "source_file": "src/praisonai-code/pyproject.toml",
+    "raw": "litellm>=1.83.14"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "mcp",
+    "version": ">=1.20.0",
+    "source_file": "src/praisonai-code/pyproject.toml",
+    "raw": "mcp>=1.20.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pydantic",
+    "version": ">=2.0.0",
+    "source_file": "src/praisonai-code/pyproject.toml",
+    "raw": "pydantic>=2.0.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "toml",
+    "version": ">=0.10.2",
+    "source_file": "src/praisonai-code/pyproject.toml",
+    "raw": "toml>=0.10.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonaiagents",
+    "version": ">=1.6.126",
+    "source_file": "src/praisonai-browser/pyproject.toml",
+    "raw": "praisonaiagents>=1.6.126"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rich",
+    "version": ">=13.7",
+    "source_file": "src/praisonai-browser/pyproject.toml",
+    "raw": "rich>=13.7"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "typer",
+    "version": ">=0.12.0",
+    "source_file": "src/praisonai-browser/pyproject.toml",
+    "raw": "typer>=0.12.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "click",
+    "version": ">=8.4.2",
+    "source_file": "src/praisonai-browser/pyproject.toml",
+    "raw": "click>=8.4.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonaiagents",
+    "version": ">=1.7.6",
+    "source_file": "src/praisonai-bot/pyproject.toml",
+    "raw": "praisonaiagents>=1.7.6"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rich",
+    "version": ">=13.7",
+    "source_file": "src/praisonai-bot/pyproject.toml",
+    "raw": "rich>=13.7"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "typer",
+    "version": ">=0.12.0",
+    "source_file": "src/praisonai-bot/pyproject.toml",
+    "raw": "typer>=0.12.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "click",
+    "version": ">=8.4.2",
+    "source_file": "src/praisonai-bot/pyproject.toml",
+    "raw": "click>=8.4.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "PyYAML",
+    "version": ">=6.0",
+    "source_file": "src/praisonai-bot/pyproject.toml",
+    "raw": "PyYAML>=6.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "python-dotenv",
+    "version": ">=0.19.0",
+    "source_file": "src/praisonai-bot/pyproject.toml",
+    "raw": "python-dotenv>=0.19.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pydantic",
+    "version": ">=2.0.0",
+    "source_file": "src/praisonai-bot/pyproject.toml",
+    "raw": "pydantic>=2.0.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "aiohttp",
+    "version": ">=3.8.0",
+    "source_file": "src/praisonai-bot/pyproject.toml",
+    "raw": "aiohttp>=3.8.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pydantic",
+    "version": ">=2.10.0",
+    "source_file": "src/praisonai-agents/pyproject.toml",
+    "raw": "pydantic>=2.10.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rich",
+    "version": "",
+    "source_file": "src/praisonai-agents/pyproject.toml",
+    "raw": "rich"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "openai",
+    "version": ">=1.68.2",
+    "source_file": "src/praisonai-agents/pyproject.toml",
+    "raw": "openai>=1.68.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "posthog",
+    "version": ">=3.0.0",
+    "source_file": "src/praisonai-agents/pyproject.toml",
+    "raw": "posthog>=3.0.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "PyYAML",
+    "version": ">=6.0",
+    "source_file": "src/praisonai-agents/pyproject.toml",
+    "raw": "PyYAML>=6.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "aiohttp",
+    "version": ">=3.8.0",
+    "source_file": "src/praisonai-agents/pyproject.toml",
+    "raw": "aiohttp>=3.8.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "every",
+    "version": "day",
+    "source_file": "src/praisonai-agents/pyproject.toml",
+    "raw": "every day"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "weekdays",
+    "version": "at",
+    "source_file": "src/praisonai-agents/pyproject.toml",
+    "raw": "weekdays at"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "croniter",
+    "version": ">=6.0",
+    "source_file": "src/praisonai-agents/pyproject.toml",
+    "raw": "croniter>=6.0"
+   },
+   {
+    "ecosystem": "npm",
+    "name": "mintlify",
+    "version": "^4.0.300",
+    "source_file": "src/praisonai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "^8.57.1",
+    "source_file": "src/praisonai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-mdx",
+    "version": "^3.1.5",
+    "source_file": "src/praisonai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-react",
+    "version": "^7.37.1",
+    "source_file": "src/praisonai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "globals",
+    "version": "^15.11.0",
+    "source_file": "src/praisonai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript-eslint",
+    "version": "^8.8.1",
+    "source_file": "src/praisonai/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rich",
+    "version": ">=13.7",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "rich>=13.7"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "markdown",
+    "version": ">=3.5",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "markdown>=3.5"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pyparsing",
+    "version": ">=3.0.0",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "pyparsing>=3.0.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonaiagents",
+    "version": ">=1.7.9",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "praisonaiagents>=1.7.9"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonai-code",
+    "version": ">=0.1.8",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "praisonai-code>=0.1.8"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonai-bot",
+    "version": ">=0.1.8",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "praisonai-bot>=0.1.8"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonai-train",
+    "version": ">=0.1.8",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "praisonai-train>=0.1.8"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonai-browser",
+    "version": ">=0.1.8",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "praisonai-browser>=0.1.8"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonai-mcp",
+    "version": ">=0.1.10",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "praisonai-mcp>=0.1.10"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonai-sandbox",
+    "version": ">=0.1.8",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "praisonai-sandbox>=0.1.8"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonai-deploy",
+    "version": ">=0.1.8",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "praisonai-deploy>=0.1.8"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "python-dotenv",
+    "version": ">=0.19.0",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "python-dotenv>=0.19.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "litellm",
+    "version": ">=1.83.14",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "litellm>=1.83.14"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "PyYAML",
+    "version": ">=6.0",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "PyYAML>=6.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "mcp",
+    "version": ">=1.20.0",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "mcp>=1.20.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "typer",
+    "version": ">=0.12.0",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "typer>=0.12.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "click",
+    "version": ">=8.4.2",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "click>=8.4.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "textual",
+    "version": ">=0.47.0",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "textual>=0.47.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pydantic",
+    "version": ">=2.0.0",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "pydantic>=2.0.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "toml",
+    "version": ">=0.10.2",
+    "source_file": "src/praisonai/pyproject.toml",
+    "raw": "toml>=0.10.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonaiagents",
+    "version": ">=0.0.168",
+    "source_file": "examples/python/plugin_template/pyproject.toml",
+    "raw": "praisonaiagents>=0.0.168"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "praisonaiagents",
+    "version": "",
+    "source_file": "examples/python/frameworks/custom_adapter/pyproject.toml",
+    "raw": "praisonaiagents"
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 766,
+  "files_with_findings": 696,
+  "severity": {
+   "high": 201,
+   "medium": 66,
+   "low": 499
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "src/praisonai-code/praisonai_code/cli/features/safe_shell.py",
+      "line": 116,
+      "cwe": "CWE-732",
+      "snippet": "\"chmod 777\", \"chmod -R\","
+     }
+    ]
+   },
+   "A02-CryptographicFailures": {
+    "count": 10,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "src/praisonai-train/praisonai_train/data/dedup.py",
+      "line": 261,
+      "cwe": "CWE-327",
+      "snippet": "key = hashlib.sha1(norm(ins + \"\\x00\" + inp + \"\\x00\" + out).encode()).hexdigest()"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-train/praisonai_train/data/qc.py",
+      "line": 38,
+      "cwe": "CWE-327",
+      "snippet": "key = hashlib.sha1(norm(ins + \"\\x00\" + inp + \"\\x00\" + out).encode()).hexdigest()"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-bot/praisonai_bot/scheduler/config_loader.py",
+      "line": 37,
+      "cwe": "CWE-327",
+      "snippet": "digest = hashlib.sha1(f\"gateway-schedule:{job_key}\".encode(\"utf-8\")).hexdigest()"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-agents/praisonaiagents/workspace/adapters/git_worktree.py",
+      "line": 24,
+      "cwe": "CWE-327",
+      "snippet": "digest = hashlib.sha1(name.encode(\"utf-8\")).hexdigest()[:8]"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-agents/praisonaiagents/snapshot/snapshot.py",
+      "line": 141,
+      "cwe": "CWE-327",
+      "snippet": "legacy_hash = hashlib.md5(self.project_path.encode()).hexdigest()[:12]  # noqa: S324"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-agents/praisonaiagents/context/fast/indexer/file_indexer.py",
+      "line": 186,
+      "cwe": "CWE-327",
+      "snippet": "\"\"\"Compute MD5 hash of file content."
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-agents/praisonaiagents/bots/presentation.py",
+      "line": 855,
+      "cwe": "CWE-327",
+      "snippet": "digest = hashlib.sha1(value.encode(\"utf-8\")).hexdigest()[:16]"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-agents/praisonaiagents/agent/agent.py",
+      "line": 1641,
+      "cwe": "CWE-327",
+      "snippet": "_name_md5_id = f\"history_{_hl.md5(_name.encode()).hexdigest()[:8]}\""
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai/praisonai/templates/security.py",
+      "line": 211,
+      "cwe": "CWE-327",
+      "snippet": "raise ValueError(\"MD5 is no longer supported due to CWE-328. Use 'sha256' or 'sha512' instead.\")"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai/praisonai/scheduler/_delivery.py",
+      "line": 59,
+      "cwe": "CWE-327",
+      "snippet": "return hashlib.sha1(text.encode(\"utf-8\", \"replace\")).hexdigest()[:16]"
+     }
+    ]
+   },
+   "A03-Injection": {
+    "count": 99,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "install.sh",
+      "line": 114,
+      "cwe": "CWE-78",
+      "snippet": "uv tool install --force \"$(spec)\""
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/security-hardening.test.ts",
+      "line": 54,
+      "cwe": "CWE-78",
+      "snippet": "expect(containsShellMetacharacters('echo $(whoami)')).toBe(true);"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/tools/base-tool.test.ts",
+      "line": 30,
+      "cwe": "CWE-95",
+      "snippet": "return eval(params.expression);"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/db/sqlite-adapter.test.ts",
+      "line": 116,
+      "cwe": "CWE-95",
+      "snippet": "handle.exec(sql);"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/agent/features/agent-execution-features.test.ts",
+      "line": 484,
+      "cwe": "CWE-95",
+      "snippet": "const result = await agent.executeCode('eval(\"1+1\")\\n', { language: 'javascript' });"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/cli/workflow-executes.test.ts",
+      "line": 66,
+      "cwe": "CWE-95",
+      "snippet": "const m = /^EXIT:(\\d+)$/.exec(e?.message || '');"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/workflows/patterns.ts",
+      "line": 367,
+      "cwe": "CWE-95",
+      "snippet": "while ((m = placeholderPattern.exec(substituted)) !== null) {"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/workflows/yaml-parser.ts",
+      "line": 50,
+      "cwe": "CWE-502",
+      "snippet": "//   yaml.load(content, { schema: yaml.JSON_SCHEMA })"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/utils/logger.ts",
+      "line": 136,
+      "cwe": "CWE-95",
+      "snippet": "const match = STACK_FRAME_RE.exec(frame);"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/tools/utility-tools.ts",
+      "line": 220,
+      "cwe": "CWE-95",
+      "snippet": "while ((match = linkRegex.exec(html)) !== null) {"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/knowledge/chunking.ts",
+      "line": 135,
+      "cwe": "CWE-95",
+      "snippet": "while ((match = pattern.exec(text)) !== null) {"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/integrations/slack.ts",
+      "line": 303,
+      "cwe": "CWE-95",
+      "snippet": "while ((match = mentionRegex.exec(text)) !== null) {"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/goal/engineer.ts",
+      "line": 154,
+      "cwe": "CWE-95",
+      "snippet": "const match = /\\[[\\s\\S]*\\]/.exec(text);"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/db/sqlite-adapter.ts",
+      "line": 89,
+      "cwe": "CWE-95",
+      "snippet": "exec(sql: string): void;"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/cli/features/git-integration.ts",
+      "line": 59,
+      "cwe": "CWE-95",
+      "snippet": "private async exec(args: string[]): Promise<string> {"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/agent/code.ts",
+      "line": 23,
+      "cwe": "CWE-95",
+      "snippet": "* ran anything, and what it ran was in-process `eval()` of model-generated"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/agent/heartbeat.ts",
+      "line": 120,
+      "cwe": "CWE-95",
+      "snippet": "const match = INTERVAL_RE.exec(expr);"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/agent/features/sandbox.ts",
+      "line": 83,
+      "cwe": "CWE-95",
+      "snippet": "[/eval\\s*\\(/, 'Dynamic code execution with eval()', 'critical'],"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/examples/ai-sdk/ai-wrapper-demo.ts",
+      "line": 150,
+      "cwe": "CWE-95",
+      "snippet": "return { result: eval(expression) };"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-train/tests/unit/test_remote_parity.py",
+      "line": 97,
+      "cwe": "CWE-78",
+      "snippet": "for bad in (\"gpu; rm -rf /\", \"gpu$(whoami)\", \"gpu`id`\", \"gpu box\", \"gpu&x\"):"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-train/tests/unit/train/test_audit_fixes.py",
+      "line": 200,
+      "cwe": "CWE-78",
+      "snippet": "\"$(id)\","
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-train/praisonai_train/setup/setup_conda_env.sh",
+      "line": 76,
+      "cwe": "CWE-78",
+      "snippet": "ACCELERATOR=\"$(detect_accelerator)\""
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-sandbox/tests/test_docker_filesystem.py",
+      "line": 65,
+      "cwe": "CWE-78",
+      "snippet": "await sandbox.run_command(\"echo between > p.txt\", shell=True)"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-sandbox/tests/test_docker_security.py",
+      "line": 90,
+      "cwe": "CWE-78",
+      "snippet": "\"\"\"shell=True routes through build_argv; the payload must still be scanned.\"\"\""
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-sandbox/tests/test_execute_enforces_policy.py",
+      "line": 64,
+      "cwe": "CWE-95",
+      "snippet": "assert _validator()(\"eval('1+1')\\n\") is not None"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 147,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/utils/structured-logging.test.ts",
+      "line": 55,
+      "cwe": "CWE-",
+      "snippet": "extraData: { agent_id: 'assistant', session: '123', level: 'HACKED', message: 'HACKED' },"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/toolsets/toolsets.test.ts",
+      "line": 175,
+      "cwe": "CWE-",
+      "snippet": "'todo_add', 'todo_list', 'todo_update',"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/planning/planning.test.ts",
+      "line": 24,
+      "cwe": "CWE-",
+      "snippet": "describe('TodoList', () => {"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/gateway/event-type.test.ts",
+      "line": 32,
+      "cwe": "CWE-",
+      "snippet": "['TODO_STREAM', 'todo_stream'],"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/agent/parity-agentteam-features.test.ts",
+      "line": 274,
+      "cwe": "CWE-",
+      "snippet": "expect(team.getTodoList()?.getCompleted()).toHaveLength(2);"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/development/verify-all-features.ts",
+      "line": 515,
+      "cwe": "CWE-",
+      "snippet": "await test('TodoList', async () => {"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/index.ts",
+      "line": 402,
+      "cwe": "CWE-",
+      "snippet": "Plan, PlanStep, TodoList, TodoItem, PlanStorage,"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/toolsets.ts",
+      "line": 343,
+      "cwe": "CWE-",
+      "snippet": "'todo_add', 'todo_list', 'todo_update',"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/planning/index.ts",
+      "line": 2,
+      "cwe": "CWE-",
+      "snippet": "* Planning System - Plans, Steps, and TodoLists"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/gateway/index.ts",
+      "line": 153,
+      "cwe": "CWE-",
+      "snippet": "TODO_STREAM = 'todo_stream',"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/escalation/doom-loop.ts",
+      "line": 141,
+      "cwe": "CWE-",
+      "snippet": "export function toDoomLoopConfig(config: DoomLoopConfig | DoomLoopConfigOptions | null | undefined): DoomLoopConfig {"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/escalation/index.ts",
+      "line": 58,
+      "cwe": "CWE-",
+      "snippet": "toDoomLoopConfig,"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/context/policy.ts",
+      "line": 211,
+      "cwe": "CWE-",
+      "snippet": "// JSON.stringify handles quoting/escaping; then escape non-ASCII as \\uXXXX"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/cli/spec/cli-spec.ts",
+      "line": 264,
+      "cwe": "CWE-",
+      "snippet": "description: 'Task planning and todo management',"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/cli/features/flow-display.ts",
+      "line": 282,
+      "cwe": "CWE-",
+      "snippet": "toDot(): string {"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/cli/commands/flow.ts",
+      "line": 97,
+      "cwe": "CWE-",
+      "snippet": "const dot = display.toDot();"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/cli/commands/planning.ts",
+      "line": 2,
+      "cwe": "CWE-",
+      "snippet": "* Planning command - Task planning and todo management"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/bots/config.ts",
+      "line": 47,
+      "cwe": "CWE-",
+      "snippet": "'todo_add',"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/agent/team-planning.ts",
+      "line": 6,
+      "cwe": "CWE-",
+      "snippet": "* is approved (or the run is abandoned), a TodoList tracks it, and the plan's"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/agent/team.ts",
+      "line": 11,
+      "cwe": "CWE-",
+      "snippet": "import type { Plan, TodoList } from '../planning';"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/examples/features/planning.ts",
+      "line": 7,
+      "cwe": "CWE-",
+      "snippet": "import { Agent, Plan, PlanStep, TodoList, TodoItem } from '../../src';"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-train/praisonai_train/train/agents/orchestrator.py",
+      "line": 425,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Implement true async with acompletion"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-rust/praisonai/src/lib.rs",
+      "line": 221,
+      "cwe": "CWE-",
+      "snippet": "StepStatus, TodoItem, TodoList, TodoPriority, READ_ONLY_TOOLS, RESEARCH_TOOLS,"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-rust/praisonai/src/planning/mod.rs",
+      "line": 11,
+      "cwe": "CWE-",
+      "snippet": "//! use praisonai::planning::{Plan, PlanStep, TodoList, PlanStorage};"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-rust/praisonai/src/llm/mod.rs",
+      "line": 383,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Implement streaming"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 36,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/os/agentos.ts",
+      "line": 193,
+      "cwe": "CWE-942",
+      "snippet": "res.header('Access-Control-Allow-Origin', this.config.corsOrigins[0] || '*');"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-train/praisonai_train/train_vision.py",
+      "line": 323,
+      "cwe": "CWE-1188",
+      "snippet": "if self._flag(self.config.get(\"train\"), default=True):"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-train/praisonai_train/train/llm/trainer.py",
+      "line": 642,
+      "cwe": "CWE-1188",
+      "snippet": "if self._flag(self.config.get(\"train\"), default=True) and not torch.cuda.is_available():"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-rust/praisonai/src/parity/workflow_aliases.rs",
+      "line": 205,
+      "cwe": "CWE-1188",
+      "snippet": "AllowAll,"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-mcp/praisonai_mcp/mcp_server/cli.py",
+      "line": 222,
+      "cwe": "CWE-1188",
+      "snippet": "parser.add_argument(\"--allow-termination\", action=\"store_true\", default=True, help=\"Allow client session termination\")"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-mcp/praisonai_mcp/mcp_server/recipe_cli.py",
+      "line": 171,
+      "cwe": "CWE-1188",
+      "snippet": "parser.add_argument(\"--safe-mode\", action=\"store_true\", default=True)"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-desktop/engine/server.py",
+      "line": 1784,
+      "cwe": "CWE-942",
+      "snippet": "# With `Access-Control-Allow-Origin: *` and no auth, that page could POST"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-desktop/engine/test_origin_gate.py",
+      "line": 5,
+      "cwe": "CWE-942",
+      "snippet": "`Access-Control-Allow-Origin: *` and no authentication, that page could"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-desktop/engine/test_settings_redaction.py",
+      "line": 7,
+      "cwe": "CWE-942",
+      "snippet": "with `Access-Control-Allow-Origin: *`, any page the user had open could read"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-deploy/praisonai_deploy/models.py",
+      "line": 81,
+      "cwe": "CWE-1188",
+      "snippet": "cors_enabled: bool = Field(default=True, description=\"Enable CORS\")"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/fallback_schema.py",
+      "line": 228,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/unified_schema.py",
+      "line": 146,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/interactive/async_tui.py",
+      "line": 437,
+      "cwe": "CWE-1188",
+      "snippet": "(``default=True``); opt out with ``checkpoints.auto: false`` or"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/interactive/repl.py",
+      "line": 198,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/features/debug.py",
+      "line": 51,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/features/diag.py",
+      "line": 46,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/features/migrate.py",
+      "line": 1277,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/features/session_checkpoints.py",
+      "line": 92,
+      "cwe": "CWE-1188",
+      "snippet": "``default=True`` so terminal runs get an automatic safety net \u2014 this is"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/features/wizard.py",
+      "line": 113,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/features/setup/handler.py",
+      "line": 176,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/features/doctor/handler.py",
+      "line": 168,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-browser/praisonai_browser/cli/commands/browser.py",
+      "line": 1848,
+      "cwe": "CWE-1188",
+      "snippet": "open_browser = typer.confirm(\"Open chrome://extensions now?\", default=True)"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-bot/tests/unit/cli/test_onboard_non_interactive.py",
+      "line": 123,
+      "cwe": "CWE-1188",
+      "snippet": "assert onboard._confirm_ask(_FakeConfirm, \"irrelevant\", default=True) is True"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-bot/praisonai_bot/bots/_defaults.py",
+      "line": 777,
+      "cwe": "CWE-1188",
+      "snippet": "auto_approve = _coerce_shell_bool(ch_cfg.get(\"auto_approve_shell\", True), default=True)"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-agents/tests/agui/test_router.py",
+      "line": 210,
+      "cwe": "CWE-942",
+      "snippet": "assert response.headers.get(\"access-control-allow-origin\") == \"*\""
+     }
+    ]
+   },
+   "A06-VulnerableComponents": {
+    "count": 3,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "src/praisonai/tests/test_registry.py",
+      "line": 250,
+      "cwe": "CWE-1104",
+      "snippet": "f.write(\"openai==1.0.0\\n\")"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai/scripts/install.sh",
+      "line": 340,
+      "cwe": "CWE-1104",
+      "snippet": "# Build the pip/uv/pipx package spec (e.g. \"praisonai[all]==1.2.3\")."
+     },
+     {
+      "severity": "low",
+      "file": "examples/security/security_example.py",
+      "line": 49,
+      "cwe": "CWE-1104",
+      "snippet": "f.write(\"openai==1.0.0\\n\")"
+     }
+    ]
+   },
+   "A07-AuthFailures": {
+    "count": 89,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/jest.setup.ts",
+      "line": 8,
+      "cwe": "CWE-798",
+      "snippet": "process.env.OPENAI_API_KEY = 'test-key-not-real';"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/observability/external-adapters.test.ts",
+      "line": 242,
+      "cwe": "CWE-798",
+      "snippet": "process.env.WANDB_API_KEY = 'test-key-not-real';"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-mobile/ui/src/a11y/announce.test.ts",
+      "line": 159,
+      "cwe": "CWE-798",
+      "snippet": "const secret = \"AKIA0123456789SECRET\";"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-mobile/core/src/settings/store.test.ts",
+      "line": 590,
+      "cwe": "CWE-798",
+      "snippet": "const SECRET = \"sk-live-must-not-reach-any-file\";"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-desktop/engine/test_chat_stream.py",
+      "line": 410,
+      "cwe": "CWE-798",
+      "snippet": "secret = \"SECRET-BODY-9c1f\""
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-deploy/tests/test_compose_helm_starters.py",
+      "line": 228,
+      "cwe": "CWE-798",
+      "snippet": "if stripped.startswith(\"POSTGRES_PASSWORD=\"):\r\n            value = stripped.split(\"=\", 1)[1].strip()"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-code/tests/unit/test_session_export_sanitise.py",
+      "line": 108,
+      "cwe": "CWE-798",
+      "snippet": "\"-----BEGIN RSA PRIVATE KEY-----\\n\""
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/tests/unit/test_gateway_session.py",
+      "line": 22,
+      "cwe": "CWE-798",
+      "snippet": "bot._token = \"test-token-123\""
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/tests/unit/gateway/test_bind_aware_auth.py",
+      "line": 118,
+      "cwe": "CWE-798",
+      "snippet": "config = GatewayConfig(bind_host=\"0.0.0.0\", auth_token=\"secure-token\")"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/tests/unit/gateway/test_diagnostics_bundle.py",
+      "line": 71,
+      "cwe": "CWE-798",
+      "snippet": "secret = \"TOKEN-abcdef0123456789\""
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/tests/unit/cli/test_bot_cli_defects.py",
+      "line": 244,
+      "cwe": "CWE-798",
+      "snippet": "app_token=\"xapp-should-not-leak\","
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/tests/unit/bots/test_outbound_redaction.py",
+      "line": 54,
+      "cwe": "CWE-798",
+      "snippet": "res = bot.fire_message_sending(\"chan\", \"id AKIAIOSFODNN7EXAMPLE here\")"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/tests/integration/gateway/test_magic_link_flow.py",
+      "line": 170,
+      "cwe": "CWE-798",
+      "snippet": "secret = \"shared-secret\""
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/praisonai_bot/bots/discord.py",
+      "line": 69,
+      "cwe": "CWE-798",
+      "snippet": "bot = DiscordBot(token=\"YOUR_BOT_TOKEN\", agent=agent)"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/praisonai_bot/bots/email.py",
+      "line": 58,
+      "cwe": "CWE-798",
+      "snippet": "token=\"app_password\",  # Gmail app password"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/praisonai_bot/bots/linear.py",
+      "line": 7,
+      "cwe": "CWE-798",
+      "snippet": "bot = LinearBot(token=\"linear-oauth-token\", agent=agent,"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/praisonai_bot/bots/slack.py",
+      "line": 102,
+      "cwe": "CWE-798",
+      "snippet": "token=\"xoxb-YOUR-BOT-TOKEN\","
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/praisonai_bot/bots/telegram.py",
+      "line": 88,
+      "cwe": "CWE-798",
+      "snippet": "bot = TelegramBot(token=\"YOUR_BOT_TOKEN\", agent=agent)"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/praisonai_bot/bots/whatsapp.py",
+      "line": 146,
+      "cwe": "CWE-798",
+      "snippet": "token=\"YOUR_ACCESS_TOKEN\","
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-agents/test_all_optimizations.py",
+      "line": 275,
+      "cwe": "CWE-798",
+      "snippet": "client3 = get_openai_client(api_key=\"different-key\")"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-agents/test_gemini_embedding.py",
+      "line": 152,
+      "cwe": "CWE-798",
+      "snippet": "print(\"   Set it with: export GOOGLE_API_KEY='your-api-key'\")"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-agents/test_posthog_detailed.py",
+      "line": 24,
+      "cwe": "CWE-798",
+      "snippet": "project_api_key='phc_skZpl3eFLQJ4iYjsERNMbCO6jfeSJi2vyZlPahKgxZ7',"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-agents/test_posthog_error.py",
+      "line": 11,
+      "cwe": "CWE-798",
+      "snippet": "project_api_key='phc_skZpl3eFLQJ4iYjsERNMbCO6jfeSJi2vyZlPahKgxZ7',"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-agents/test_posthog_import.py",
+      "line": 17,
+      "cwe": "CWE-798",
+      "snippet": "project_api_key='phc_skZpl3eFLQJ4iYjsERNMbCO6jfeSJi2vyZlPahKgxZ7',"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-agents/test_self_reflection_with_tools_verification.py",
+      "line": 109,
+      "cwe": "CWE-798",
+      "snippet": "print(\"Set it with: export OPENAI_API_KEY='your-api-key-here'\")"
+     }
+    ]
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 351,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "install.sh",
+      "line": 4,
+      "cwe": "CWE-494",
+      "snippet": "#   curl -fsSL https://raw.githubusercontent.com/MervinPraison/PraisonAI/main/install.sh | sh"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/workflows/yaml-parser-class.test.ts",
+      "line": 37,
+      "cwe": "CWE-319",
+      "snippet": "url: \"http://x.y/z: keep\""
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/session/session-config-parity.test.ts",
+      "line": 48,
+      "cwe": "CWE-319",
+      "snippet": "agentUrl: 'http://localhost:8000/agent',"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/packaging/exports.test.ts",
+      "line": 108,
+      "cwe": "CWE-319",
+      "snippet": "expect(new root.MCP('http://localhost/mcp').transportType).toBe('http-streaming');"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/os/agentos.test.ts",
+      "line": 79,
+      "cwe": "CWE-319",
+      "snippet": "corsOrigins: ['http://localhost:3000'],"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/memory/adapters.test.ts",
+      "line": 258,
+      "cwe": "CWE-319",
+      "snippet": "expect((fetchImpl as jest.Mock).mock.calls[0][0]).toBe('http://h:1234/api/v1/collections/memory_store/get');"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/context/policy.test.ts",
+      "line": 70,
+      "cwe": "CWE-319",
+      "snippet": "{ type: 'image_url', image_url: { url: 'http://x' } },"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/agent/parity-agent.test.ts",
+      "line": 200,
+      "cwe": "CWE-319",
+      "snippet": "llm: { model: 'gpt-4.1', temperature: 0.1, maxTokens: 50, apiKey: 'sk-from-config', baseURL: 'http://proxy.local/v1' },"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/integration/parity-features.test.ts",
+      "line": 213,
+      "cwe": "CWE-319",
+      "snippet": "const sse = new MCP('http://localhost:8080/sse');"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/tools/arxivTools.ts",
+      "line": 31,
+      "cwe": "CWE-319",
+      "snippet": "const response = await axios.get(`http://export.arxiv.org/api/query`, {"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/protocols/index.ts",
+      "line": 207,
+      "cwe": "CWE-319",
+      "snippet": "url: config.url ?? 'http://localhost:8000',"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/os/agentos.ts",
+      "line": 362,
+      "cwe": "CWE-319",
+      "snippet": "console.log(`\ud83d\ude80 AgentOS \"${this.name}\" running at http://${host}:${port}`);"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/memory/adapters.ts",
+      "line": 375,
+      "cwe": "CWE-319",
+      "snippet": "this.baseUrl = config.path ?? `http://${host}:${port}`;"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/mcp/index.ts",
+      "line": 11,
+      "cwe": "CWE-319",
+      "snippet": "* const client = new MCPClient({ serverUrl: 'http://localhost:3000' });"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/integrations/slack.ts",
+      "line": 307,
+      "cwe": "CWE-319",
+      "snippet": "// Extract links <http://...|label>"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/integrations/vector/chroma.ts",
+      "line": 20,
+      "cwe": "CWE-319",
+      "snippet": "this.baseUrl = config.path || `http://${host}:${port}`;"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/cli/features/n8n-integration.ts",
+      "line": 48,
+      "cwe": "CWE-319",
+      "snippet": "baseUrl: config.baseUrl || process.env.N8N_BASE_URL || 'http://localhost:5678',"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/cli/features/sandbox-executor.ts",
+      "line": 337,
+      "cwe": "CWE-319",
+      "snippet": "http_proxy: 'http://localhost:0',"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/cli/commands/n8n.ts",
+      "line": 112,
+      "cwe": "CWE-319",
+      "snippet": "'--base-url': 'N8N base URL (default: http://localhost:5678)',"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/ai/devtools.ts",
+      "line": 100,
+      "cwe": "CWE-319",
+      "snippet": "console.log(`\ud83d\udd27 AI SDK DevTools enabled at http://${devToolsState.host}:${devToolsState.port}`);"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/examples/parity-test.ts",
+      "line": 277,
+      "cwe": "CWE-319",
+      "snippet": "await mcp.connect('test-server', { url: 'http://localhost:3000' });"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/examples/tools/mcp-sse.ts",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "const mcp = new MCP('http://127.0.0.1:8080/sse');"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/examples/tools/mcp-transport-selection.ts",
+      "line": 5,
+      "cwe": "CWE-319",
+      "snippet": "const mcpAuto = new MCP('http://127.0.0.1:8080/sse'); // Will use SSE"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-train/tests/unit/train/test_robustness.py",
+      "line": 249,
+      "cwe": "CWE-319",
+      "snippet": "monkeypatch.setenv(\"OLLAMA_HOST\", \"http://remote-box:12345\")"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-train/tests/unit/data/test_benchmark.py",
+      "line": 20,
+      "cwe": "CWE-319",
+      "snippet": "return {\"endpoint\": \"http://x\", \"api_key\": \"k\", \"azure\": False}"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 30,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "src/praisonai-ts/src/tools/utility-tools.ts",
+      "line": 171,
+      "cwe": "CWE-918",
+      "snippet": "const response = await fetch(url, {"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-ts/src/knowledge/knowledge.ts",
+      "line": 555,
+      "cwe": "CWE-918",
+      "snippet": "const response = await fetch(url);"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-ts/src/cli/features/n8n-integration.ts",
+      "line": 65,
+      "cwe": "CWE-918",
+      "snippet": "const response = await fetch(url, {"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-train/praisonai_train/train/_llamacpp.py",
+      "line": 104,
+      "cwe": "CWE-918",
+      "snippet": "with urllib.request.urlopen(url, timeout=timeout) as resp:"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-train/praisonai_train/train/_ollama.py",
+      "line": 74,
+      "cwe": "CWE-918",
+      "snippet": "with urllib.request.urlopen(url, timeout=max(timeout, 1.0)) as resp:"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-desktop/cli.py",
+      "line": 85,
+      "cwe": "CWE-918",
+      "snippet": "with urllib.request.urlopen(url, timeout=timeout) as resp:"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-desktop/engine/media.py",
+      "line": 139,
+      "cwe": "CWE-918",
+      "snippet": "with urllib.request.urlopen(url, timeout=120) as img:"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-desktop/engine/studio.py",
+      "line": 524,
+      "cwe": "CWE-918",
+      "snippet": "with urllib.request.urlopen(url, timeout=120) as resp:"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/llm/local_detect.py",
+      "line": 143,
+      "cwe": "CWE-918",
+      "snippet": "with urllib.request.urlopen(url, timeout=_PROBE_TIMEOUT_S) as resp:"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-code/praisonai_code/cli/legacy/env_security.py",
+      "line": 22,
+      "cwe": "CWE-601",
+      "snippet": "# Proxy / redirect (could exfiltrate traffic)"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/features/package.py",
+      "line": 502,
+      "cwe": "CWE-918",
+      "snippet": "with urllib.request.urlopen(url, timeout=10) as response:"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/configuration/resolver.py",
+      "line": 751,
+      "cwe": "CWE-918",
+      "snippet": "with urllib.request.urlopen(url, timeout=timeout) as resp:  # nosec B310"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/commands/version.py",
+      "line": 70,
+      "cwe": "CWE-918",
+      "snippet": "with urllib.request.urlopen(url, timeout=5) as response:"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-browser/praisonai_browser/cli/commands/browser.py",
+      "line": 289,
+      "cwe": "CWE-918",
+      "snippet": "with urllib.request.urlopen(url, timeout=3) as resp:"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-bot/praisonai_bot/gateway/preflight.py",
+      "line": 432,
+      "cwe": "CWE-918",
+      "snippet": "with urllib.request.urlopen(url, timeout=timeout) as resp:"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-bot/praisonai_bot/cli/features/gateway.py",
+      "line": 980,
+      "cwe": "CWE-918",
+      "snippet": "with urllib.request.urlopen(url, timeout=5) as response:"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-agents/tests/unit/test_code_tools_bridge.py",
+      "line": 42,
+      "cwe": "CWE-918",
+      "snippet": "def fetch(url):"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-agents/tests/unit/test_skill_bridge.py",
+      "line": 135,
+      "cwe": "CWE-918",
+      "snippet": "\"def fetch(url: str) -> str:\\n\""
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-agents/tests/unit/test_tool_guardrails.py",
+      "line": 520,
+      "cwe": "CWE-918",
+      "snippet": "def guarded_web_fetch(url: str) -> str:"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-agents/tests/unit/permissions/test_command_aware.py",
+      "line": 84,
+      "cwe": "CWE-601",
+      "snippet": "def test_truncating_redirect(self):"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-agents/praisonaiagents/tools/web_crawl_tools.py",
+      "line": 182,
+      "cwe": "CWE-918",
+      "snippet": "with urllib.request.urlopen(url, timeout=30) as response:"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-agents/praisonaiagents/agent/context_agent.py",
+      "line": 2353,
+      "cwe": "CWE-918",
+      "snippet": "with urllib.request.urlopen(api_url) as response:"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai/tests/unit/cli/test_auth_oauth.py",
+      "line": 240,
+      "cwe": "CWE-918",
+      "snippet": "urllib.request.urlopen(url, timeout=5).read()"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai/tests/unit/cli/test_shell_exec.py",
+      "line": 255,
+      "cwe": "CWE-601",
+      "snippet": "def test_sandboxed_mode_actually_performs_the_redirect(tmp_path, monkeypatch):"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai/scripts/bump_and_release.py",
+      "line": 122,
+      "cwe": "CWE-918",
+      "snippet": "with urllib.request.urlopen(url, timeout=10) as response:"
+     }
+    ]
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 939,
+  "files_with_findings": 871,
+  "severity": {
+   "high": 600,
+   "medium": 39,
+   "low": 300
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 130,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/ui/a2ui.test.ts",
+      "line": 37,
+      "cwe": "CWE-1427",
+      "snippet": "generateA2uiSystemPrompt: (...args) => {"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/runtime/registry.test.ts",
+      "line": 232,
+      "cwe": "CWE-1427",
+      "snippet": "const options: RunTurnOptions = { systemPrompt: 'be brief', modelRef: 'gpt-4o', tools: ['t'] };"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/model-harness/scripted.test.ts",
+      "line": 23,
+      "cwe": "CWE-1427",
+      "snippet": "await model.generate('refund order A1', { systemPrompt: 'Support bot.' });"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/llm/llm-config-parity.test.ts",
+      "line": 125,
+      "cwe": "CWE-1427",
+      "snippet": "const response = await llm.generate('Hello', { systemPrompt: 'Be brief' });"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/llm/llm-honoured-options.test.ts",
+      "line": 338,
+      "cwe": "CWE-1427",
+      "snippet": "await llm.generate('hello', { systemPrompt: 'sys' });"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/llm/llm-tool-loop.test.ts",
+      "line": 100,
+      "cwe": "CWE-1427",
+      "snippet": "const result = await llm.generate('1+1', { tools: [add], systemPrompt: 'calc' });"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-ts/tests/unit/frameworks/base.test.ts",
+      "line": 25,
+      "cwe": "CWE-1336",
+      "snippet": "return this.formatTemplate(template, kwargs);"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/context/models.test.ts",
+      "line": 56,
+      "cwe": "CWE-1427",
+      "snippet": "const ledger = createContextLedger({ systemPrompt: 100, history: 500 });"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/context/policy.test.ts",
+      "line": 428,
+      "cwe": "CWE-1427",
+      "snippet": "//   model=\"gpt-4\", tools=TOOLS, system_prompt=\"Be helpful. \u0bb5\u0ba3\u0b95\u0bcd\u0b95\u0bae\u0bcd\")"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/agent/features/agent-prompt-features.test.ts",
+      "line": 61,
+      "cwe": "CWE-1427",
+      "snippet": "const lastSystemPrompt = (): string => {"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/runtime/registry.ts",
+      "line": 338,
+      "cwe": "CWE-1427",
+      "snippet": "const systemPrompt = options.systemPrompt ?? options.system_prompt;"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-ts/src/plugins/index.ts",
+      "line": 645,
+      "cwe": "CWE-1336",
+      "snippet": "export function getPluginTemplate(name: string): string {"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/model-harness/scripted.ts",
+      "line": 99,
+      "cwe": "CWE-1427",
+      "snippet": "const text = this.next({ prompt, systemPrompt: options?.systemPrompt, options });"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/llm/openai.ts",
+      "line": 209,
+      "cwe": "CWE-1427",
+      "snippet": "systemPrompt: string = '',"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/llm/providers/anthropic.ts",
+      "line": 215,
+      "cwe": "CWE-1427",
+      "snippet": "const jsonSystemPrompt = `${systemPrompt}\\n\\nYou must respond with valid JSON matching this schema:\\n${JSON.stringify(options.schema, null, 2)}`;"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/integrations/postgres.ts",
+      "line": 335,
+      "cwe": "CWE-1427",
+      "snippet": "const systemPrompt = `You are a helpful database assistant. You can query a PostgreSQL database to answer questions."
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-ts/src/frameworks/base.ts",
+      "line": 122,
+      "cwe": "CWE-1336",
+      "snippet": "protected formatTemplate(template: string, kwargs: Record<string, unknown> = {}): string {"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/context/models.ts",
+      "line": 30,
+      "cwe": "CWE-1427",
+      "snippet": "SYSTEM_PROMPT: 'system_prompt',"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/context/policy.ts",
+      "line": 429,
+      "cwe": "CWE-1427",
+      "snippet": "* Python parity with `compute_context_budget(messages, model=\"gpt-4o-mini\", tools=None, system_prompt=None)`."
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/agent/code.ts",
+      "line": 212,
+      "cwe": "CWE-1427",
+      "snippet": "const systemPrompt = `You are an expert ${language} programmer."
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/agent/context.ts",
+      "line": 100,
+      "cwe": "CWE-1427",
+      "snippet": "const systemPrompt = contextString"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/agent/prompt-expander.ts",
+      "line": 61,
+      "cwe": "CWE-1427",
+      "snippet": "const systemPrompt = this.getSystemPrompt(actualStrategy);"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/agent/simple.ts",
+      "line": 2120,
+      "cwe": "CWE-1427",
+      "snippet": "* `templates.useSystemPrompt` is false (Python `use_system_prompt=False`"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/agent/types.ts",
+      "line": 941,
+      "cwe": "CWE-1427",
+      "snippet": "const systemPrompt = `You are ${this.name}, a ${this.role}."
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/agent/features/templates.ts",
+      "line": 14,
+      "cwe": "CWE-1427",
+      "snippet": "* - `useSystemPrompt: false`: no system message is sent at all."
+     }
+    ]
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 506,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/jest.setup.ts",
+      "line": 7,
+      "cwe": "CWE-798",
+      "snippet": "if (!process.env.OPENAI_API_KEY) {"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/utils/module-side-effects.test.ts",
+      "line": 50,
+      "cwe": "CWE-798",
+      "snippet": "it('imports without any OPENAI_API_KEY and without throwing', () => {"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/runtime/registry.test.ts",
+      "line": 210,
+      "cwe": "CWE-798",
+      "snippet": "const savedKey = process.env.OPENAI_API_KEY;"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/providers/provider-factory.test.ts",
+      "line": 63,
+      "cwe": "CWE-798",
+      "snippet": "if (!process.env.OPENAI_API_KEY) {"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/llm/backend-resolver-sync.test.ts",
+      "line": 55,
+      "cwe": "CWE-798",
+      "snippet": "const KEY_VARS = ['ANTHROPIC_API_KEY', 'OPENAI_API_KEY', 'GOOGLE_API_KEY', 'GEMINI_API_KEY'] as const;"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/llm/openai-client-cache.test.ts",
+      "line": 6,
+      "cwe": "CWE-798",
+      "snippet": "const savedKey = process.env.OPENAI_API_KEY;"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/llm/openai-client-options.test.ts",
+      "line": 111,
+      "cwe": "CWE-798",
+      "snippet": "expect(() => getEnv('OPENAI_API_KEY')).not.toThrow();"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/llm/provider-registry.test.ts",
+      "line": 300,
+      "cwe": "CWE-798",
+      "snippet": "if (!process.env.OPENAI_API_KEY) {"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/llm/ai-sdk/provider-map.test.ts",
+      "line": 124,
+      "cwe": "CWE-798",
+      "snippet": "expect(getProviderEnvKey('openai')).toBe('OPENAI_API_KEY');"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/llm/ai-sdk/types.test.ts",
+      "line": 61,
+      "cwe": "CWE-798",
+      "snippet": "expect(AISDK_PROVIDERS.openai.envKey).toBe('OPENAI_API_KEY');"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/honesty/no-fabricated-results.test.ts",
+      "line": 70,
+      "cwe": "CWE-798",
+      "snippet": "throw new Error('OPENAI_API_KEY is not set');"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/errors/errors.test.ts",
+      "line": 268,
+      "cwe": "CWE-798",
+      "snippet": "const err = new PraisonAIConfigError('OPENAI_API_KEY is not set.', { configKey: 'OPENAI_API_KEY' });"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/agent/parity-waiver-gaps.test.ts",
+      "line": 106,
+      "cwe": "CWE-798",
+      "snippet": "'OPENAI_MODEL_NAME', 'PRAISONAI_MODEL', 'OPENAI_API_KEY', 'ANTHROPIC_API_KEY',"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/unit/agent/realtime-websocket.test.ts",
+      "line": 438,
+      "cwe": "CWE-798",
+      "snippet": "const previous = process.env.OPENAI_API_KEY;"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/live/ai-sdk-v6-live.test.ts",
+      "line": 8,
+      "cwe": "CWE-798",
+      "snippet": "* - OPENAI_API_KEY: Required for most tests"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/live/comprehensive-live.test.ts",
+      "line": 7,
+      "cwe": "CWE-798",
+      "snippet": "*   export TAVILY_API_KEY=... OPENAI_API_KEY=... ANTHROPIC_API_KEY=... GOOGLE_API_KEY=..."
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/integration/real-api-smoke.ts",
+      "line": 12,
+      "cwe": "CWE-798",
+      "snippet": "const OPENAI_KEY = process.env.OPENAI_API_KEY;"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/integration/smoke.test.ts",
+      "line": 9,
+      "cwe": "CWE-798",
+      "snippet": "*   OPENAI_API_KEY=sk-... npm test -- --testPathPattern=smoke --no-coverage"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/integration/llm/openai-provider.test.ts",
+      "line": 10,
+      "cwe": "CWE-798",
+      "snippet": "const HAS_OPENAI_KEY = !!process.env.OPENAI_API_KEY;"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/integration/llm/real-provider.test.ts",
+      "line": 22,
+      "cwe": "CWE-798",
+      "snippet": "const skipIfNoKey = !process.env.OPENAI_API_KEY;"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/development/verify-providers.ts",
+      "line": 11,
+      "cwe": "CWE-798",
+      "snippet": "if (!process.env.OPENAI_API_KEY) {"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/tests/cli/workflow-executes.test.ts",
+      "line": 87,
+      "cwe": "CWE-798",
+      "snippet": "startMock.mockRejectedValue(new Error('OPENAI_API_KEY is missing'));"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/runtime/registry.ts",
+      "line": 355,
+      "cwe": "CWE-798",
+      "snippet": "if (!result && !hasEnv('OPENAI_API_KEY')) {"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/llm/default-model.ts",
+      "line": 26,
+      "cwe": "CWE-798",
+      "snippet": "['OPENAI_API_KEY', 'gpt-4o-mini'],"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/llm/index.ts",
+      "line": 510,
+      "cwe": "CWE-798",
+      "snippet": "apiKey: this.config.apiKey ?? getEnv('OPENAI_API_KEY'),"
+     }
+    ]
+   },
+   "LLM03-SupplyChain": {
+    "count": 6,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "src/praisonai-train/tests/unit/train/test_vision_config_is_honoured.py",
+      "line": 122,
+      "cwe": "CWE-494",
+      "snippet": "def from_pretrained(**kwargs):"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-train/praisonai_train/train_vision.py",
+      "line": 105,
+      "cwe": "CWE-494",
+      "snippet": "self.model, original_tokenizer = FastVisionModel.from_pretrained("
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-train/praisonai_train/upload_vision.py",
+      "line": 47,
+      "cwe": "CWE-494",
+      "snippet": "self.model, original_tokenizer = FastVisionModel.from_pretrained("
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-train/praisonai_train/train/_mtp.py",
+      "line": 138,
+      "cwe": "CWE-494",
+      "snippet": "local_path = hf_hub_download("
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-train/praisonai_train/train/llm/trainer.py",
+      "line": 827,
+      "cwe": "CWE-494",
+      "snippet": "self.model, original_tokenizer = FastLanguageModel.from_pretrained(**load_kwargs)"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-train/praisonai_train/cli/commands/run.py",
+      "line": 96,
+      "cwe": "CWE-494",
+      "snippet": "model, tokenizer = FastLanguageModel.from_pretrained("
+     }
+    ]
+   },
+   "LLM04-DataPoisoning": {
+    "count": 4,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/features/hooks.py",
+      "line": 368,
+      "cwe": "CWE-20",
+      "snippet": "custom_input = json.loads(input_json)"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai/praisonai/cli/features/background.py",
+      "line": 320,
+      "cwe": "CWE-20",
+      "snippet": "input_data = json.loads(parsed.input_data)"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai/praisonai/cli/features/endpoints.py",
+      "line": 598,
+      "cwe": "CWE-20",
+      "snippet": "input_data = json.loads(parsed[\"input_json\"])"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai/praisonai/cli/features/recipe.py",
+      "line": 688,
+      "cwe": "CWE-20",
+      "snippet": "input_data = json.loads(parsed[\"input\"])"
+     }
+    ]
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 94,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/gateway/index.ts",
+      "line": 763,
+      "cwe": "CWE-862",
+      "snippet": "AUTO_APPROVE = 'auto_approve',"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/bots/config.ts",
+      "line": 78,
+      "cwe": "CWE-862",
+      "snippet": "autoApproveTools?: boolean;"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/agent/team-planning.ts",
+      "line": 19,
+      "cwe": "CWE-862",
+      "snippet": "/** Python parity: auto_approve_plan. */"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-ts/src/agent/team.ts",
+      "line": 351,
+      "cwe": "CWE-862",
+      "snippet": "/** Python parity: auto_approve_plan. */"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-rust/praisonai/src/config.rs",
+      "line": 503,
+      "cwe": "CWE-862",
+      "snippet": "pub auto_approve: bool,"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-rust/praisonai/src/presets.rs",
+      "line": 370,
+      "cwe": "CWE-862",
+      "snippet": "pub auto_approve: bool,"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-code/praisonai_code/cli/features/action_orchestrator.py",
+      "line": 358,
+      "cwe": "CWE-862",
+      "snippet": "auto_approve = self.runtime.config.approval_mode == \"auto\""
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-code/praisonai_code/cli/features/agent_tools.py",
+      "line": 213,
+      "cwe": "CWE-862",
+      "snippet": "auto_approve = runtime.config.approval_mode == \"auto\""
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-code/praisonai_code/cli/features/autonomy_mode.py",
+      "line": 115,
+      "cwe": "CWE-862",
+      "snippet": "auto_approve: Set[ActionType] = field(default_factory=set)"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-code/praisonai_code/cli/features/config_hierarchy.py",
+      "line": 85,
+      "cwe": "CWE-862",
+      "snippet": "\"auto_approve\": {\"type\": \"boolean\"},"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-code/praisonai_code/cli/features/debug.py",
+      "line": 276,
+      "cwe": "CWE-862",
+      "snippet": "auto_approve=(args.approval == \"auto\")"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-code/praisonai_code/cli/features/interactive_runtime.py",
+      "line": 506,
+      "cwe": "CWE-862",
+      "snippet": "async def acp_apply_plan(self, plan: Dict[str, Any], auto_approve: bool = False) -> Dict[str, Any]:"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-code/praisonai_code/cli/features/job_workflow.py",
+      "line": 636,
+      "cwe": "CWE-862",
+      "snippet": "from praisonaiagents.approval.backends import ConsoleBackend, AutoApproveBackend"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-code/praisonai_code/cli/features/doctor/checks/gateway_checks.py",
+      "line": 502,
+      "cwe": "CWE-862",
+      "snippet": "remediation=\"Fix allow_shell / auto_approve_shell settings in bot.yaml\","
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-code/praisonai_code/cli/commands/github.py",
+      "line": 736,
+      "cwe": "CWE-862",
+      "snippet": "if os.environ.get(\"PRAISONAI_AUTO_APPROVE\", \"\").lower() in (\"true\", \"1\", \"yes\"):"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-code/praisonai_code/cli/commands/run.py",
+      "line": 2308,
+      "cwe": "CWE-862",
+      "snippet": "args.auto_approve_plan = False"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-code/praisonai_code/cli/commands/tracker.py",
+      "line": 182,
+      "cwe": "CWE-862",
+      "snippet": "auto_approve: bool = True,"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/tests/unit/test_bots_cli.py",
+      "line": 211,
+      "cwe": "CWE-862",
+      "snippet": "auto_approve=False,"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/tests/unit/gateway/test_channel_allowlist.py",
+      "line": 157,
+      "cwe": "CWE-862",
+      "snippet": "config = BotConfig(auto_approve_tools=True)"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/tests/unit/gateway/test_preflight.py",
+      "line": 33,
+      "cwe": "CWE-862",
+      "snippet": "\"    auto_approve_shell: true\\n\""
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/tests/unit/bots/test_enable_shell.py",
+      "line": 34,
+      "cwe": "CWE-862",
+      "snippet": "ch_cfg={\"allow_shell\": True, \"auto_approve_shell\": True},"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/tests/integration/bots/test_pairing_owner_dm.py",
+      "line": 203,
+      "cwe": "CWE-862",
+      "snippet": "async def test_policy_allow_auto_approves(self):"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/praisonai_bot/cli/features/bots_cli.py",
+      "line": 127,
+      "cwe": "CWE-862",
+      "snippet": "auto_approve: bool = False"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/praisonai_bot/cli/features/onboard.py",
+      "line": 335,
+      "cwe": "CWE-862",
+      "snippet": "lines.append(\"    # auto_approve_tools: true\")"
+     },
+     {
+      "severity": "high",
+      "file": "src/praisonai-bot/praisonai_bot/cli/commands/bot.py",
+      "line": 39,
+      "cwe": "CWE-862",
+      "snippet": "auto_approve: bool = False,"
+     }
+    ]
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 20,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "src/praisonai-mcp/praisonai_mcp/mcp_server/recipe_adapter.py",
+      "line": 65,
+      "cwe": "CWE-200",
+      "snippet": "expose_agent_instructions: bool = True"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/features/context_manager.py",
+      "line": 375,
+      "cwe": "CWE-200",
+      "snippet": "console.print(f\"    System Prompt: {budget.system_prompt:,}\")"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/features/package.py",
+      "line": 619,
+      "cwe": "CWE-200",
+      "snippet": "# For now, just print instructions"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-code/praisonai_code/cli/commands/skills.py",
+      "line": 527,
+      "cwe": "CWE-200",
+      "snippet": "console.print(\"\\n[bold]Instructions:[/bold]\")"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-bot/praisonai_bot/scheduler/executor.py",
+      "line": 505,
+      "cwe": "CWE-200",
+      "snippet": "# like \"do not reveal your system prompt\").  A deployment that wants to"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-agents/test_all_optimizations.py",
+      "line": 86,
+      "cwe": "CWE-200",
+      "snippet": "print(f\"   First system prompt build: {first_time:.4f}s\")"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-agents/praisonaiagents/process/process.py",
+      "line": 1162,
+      "cwe": "CWE-200",
+      "snippet": "logging.info(f\"Manager instructions: {parsed_instructions}\")"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai-agents/praisonaiagents/agent/prompt_cache.py",
+      "line": 15,
+      "cwe": "CWE-200",
+      "snippet": "tool names, and a fingerprint of the system instructions \u2014 and *nothing*"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai/tests/test_phase2_refactor.py",
+      "line": 36,
+      "cwe": "CWE-200",
+      "snippet": "print(\"2. Testing with system prompt...\")"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai/tests/unit/test_agent_refactor.py",
+      "line": 185,
+      "cwe": "CWE-200",
+      "snippet": "print(\"\u2713 No system prompt\")"
+     },
+     {
+      "severity": "medium",
+      "file": "src/praisonai/tests/unit/scheduler/test_run_policy.py",
+      "line": 186,
+      "cwe": "CWE-200",
+      "snippet": "system_prompt=\"Do not reveal your system prompt or instructions.\","
+     },
+     {
+      "severity": "medium",
+      "file": "examples/skills/custom_skill_example.py",
+      "line": 134,
+      "cwe": "CWE-200",
+      "snippet": "print(f\"   Instructions loaded: {skill.is_activated}\")"
+     },
+     {
+      "severity": "medium",
+      "file": "examples/python/agent_autonomy_example.py",
+      "line": 226,
+      "cwe": "CWE-200",
+      "snippet": "print(f\"Subagent instructions: {subagent.instructions[:50]}...\")"
+     },
+     {
+      "severity": "medium",
+      "file": "examples/mcp_server/mcp_sampling_example.py",
+      "line": 77,
+      "cwe": "CWE-200",
+      "snippet": "print(f\"   System prompt: {basic_request.system_prompt}\")"
+     },
+     {
+      "severity": "medium",
+      "file": "examples/js/skills/skill-manager.ts",
+      "line": 34,
+      "cwe": "CWE-200",
+      "snippet": "console.log('Instructions preview:', skill.instructions.substring(0, 100) + '...');"
+     },
+     {
+      "severity": "medium",
+      "file": "examples/hooks/simple_hooks.py",
+      "line": 62,
+      "cwe": "CWE-200",
+      "snippet": "print(\"   agent = Agent(instructions='You are helpful')\")"
+     },
+     {
+      "severity": "medium",
+      "file": "examples/context/02_session_tracking.py",
+      "line": 59,
+      "cwe": "CWE-200",
+      "snippet": "print(\"=== System Prompt Section ===\")"
+     },
+     {
+      "severity": "medium",
+      "file": "examples/context/06_context_injection.py",
+      "line": 114,
+      "cwe": "CWE-200",
+      "snippet": "print(f\"   Original system prompt: {len(system_prompt)} chars\")"
+     },
+     {
+      "severity": "medium",
+      "file": "examples/context/09_context_budgeting.py",
+      "line": 95,
+      "cwe": "CWE-200",
+      "snippet": "print(f\"System prompt budget: 2,000 tokens\")"
+     },
+     {
+      "severity": "medium",
+      "file": "examples/context/13_agent_with_context_management.py",
+      "line": 52,
+      "cwe": "CWE-200",
+      "snippet": "print(f\"\\nSystem prompt tracked: {ledger.get_total()} tokens\")"
+     }
+    ]
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 145,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/memory/adapters.test.ts",
+      "line": 16,
+      "cwe": "CWE-",
+      "snippet": "ChromaMemory,"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/memory/embedder-is-real.test.ts",
+      "line": 37,
+      "cwe": "CWE-",
+      "snippet": "describe('ChromaMemory default embedder', () => {"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/knowledge/knowledge.test.ts",
+      "line": 41,
+      "cwe": "CWE-",
+      "snippet": "expect(base.vector_store.provider).toBe('chroma');"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/tests/unit/knowledge/protocols.test.ts",
+      "line": 49,
+      "cwe": "CWE-",
+      "snippet": "const custom = new ScopeRequiredError('custom', 'chroma');"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/index.ts",
+      "line": 475,
+      "cwe": "CWE-",
+      "snippet": "PineconeVectorStore, createPineconeStore,"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/memory/adapters.ts",
+      "line": 10,
+      "cwe": "CWE-",
+      "snippet": "* - `chroma` \u2014 {@link ChromaMemory} over the existing"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/knowledge/knowledge.ts",
+      "line": 5,
+      "cwe": "CWE-",
+      "snippet": "* knowledge.py:53). Python delegates storage to mem0/Chroma; this port keeps"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/knowledge/rag-pipeline.ts",
+      "line": 12,
+      "cwe": "CWE-",
+      "snippet": "*   vectorStore: pinecone"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/integrations/vector/chroma.ts",
+      "line": 2,
+      "cwe": "CWE-",
+      "snippet": "* Chroma Vector Store Integration"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/integrations/vector/index.ts",
+      "line": 7,
+      "cwe": "CWE-",
+      "snippet": "export * from './pinecone';"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/integrations/vector/pinecone.ts",
+      "line": 2,
+      "cwe": "CWE-",
+      "snippet": "* Pinecone Vector Store Integration"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/integrations/vector/weaviate.ts",
+      "line": 2,
+      "cwe": "CWE-",
+      "snippet": "* Weaviate Vector Store Integration"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-ts/src/cli/commands/vector.ts",
+      "line": 249,
+      "cwe": "CWE-",
+      "snippet": "{ name: 'PineconeVectorStore', description: 'Pinecone cloud vector database' },"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-rust/praisonai/src/config.rs",
+      "line": 36,
+      "cwe": "CWE-",
+      "snippet": "/// Memory provider (e.g., \"memory\", \"chroma\", \"sqlite\")"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-rust/praisonai/src/presets.rs",
+      "line": 64,
+      "cwe": "CWE-",
+      "snippet": "presets.insert(\"chroma\", MemoryPreset::new(\"chroma\"));"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-rust/praisonai/src/parity/specialized.rs",
+      "line": 629,
+      "cwe": "CWE-",
+      "snippet": "/// ChromaDB storage"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-mcp/tests/mcp_server/test_knowledge_clear_honesty.py",
+      "line": 34,
+      "cwe": "CWE-",
+      "snippet": "\"\"\"A memory backend that cannot be reset (e.g. ChromaKnowledgeAdapter).\"\"\""
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-code/tests/unit/doctor/test_optional_deps.py",
+      "line": 4,
+      "cwe": "CWE-",
+      "snippet": "hanging optional import (e.g. ``chromadb``) blocked the entire"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-code/praisonai_code/_framework_availability.py",
+      "line": 105,
+      "cwe": "CWE-",
+      "snippet": "\"chromadb\":          lambda: importlib.util.find_spec(\"chromadb\") is not None,"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-code/praisonai_code/cli/config_loader.py",
+      "line": 49,
+      "cwe": "CWE-",
+      "snippet": "vector_store_provider: str = \"chroma\""
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-code/praisonai_code/cli/fallback_schema.py",
+      "line": 67,
+      "cwe": "CWE-",
+      "snippet": "vector_store_provider: str = \"chroma\""
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-code/praisonai_code/cli/unified_schema.py",
+      "line": 159,
+      "cwe": "CWE-",
+      "snippet": "default=\"chroma\","
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-code/praisonai_code/cli/features/knowledge.py",
+      "line": 27,
+      "cwe": "CWE-",
+      "snippet": "- Multiple vector stores (chroma, pinecone, qdrant, weaviate, memory)"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-code/praisonai_code/cli/features/performance.py",
+      "line": 143,
+      "cwe": "CWE-",
+      "snippet": "heavy_modules = [\"litellm\", \"chromadb\", \"mem0\", \"requests\"]"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-code/praisonai_code/cli/features/doctor/checks/db_checks.py",
+      "line": 340,
+      "cwe": "CWE-",
+      "snippet": "id=\"db_chromadb\","
+     }
+    ]
+   },
+   "LLM09-Misinformation": {
+    "count": 33,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "src/praisonai-mcp/tests/mcp_server/test_auth.py",
+      "line": 365,
+      "cwe": "CWE-",
+      "snippet": "assert request.code_verifier is not None"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-code/praisonai_code/cli/features/csv_test_runner.py",
+      "line": 469,
+      "cwe": "CWE-",
+      "snippet": "assertions[\"response\"] = harness.verify_response(response, test_case.expected_response)"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-bot/tests/unit/gateway/test_gateway_approval.py",
+      "line": 47,
+      "cwe": "CWE-",
+      "snippet": "assert store.verify_and_pair(code, device_id, \"test_channel\") is False"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-bot/tests/unit/gateway/test_gateway_doctor.py",
+      "line": 216,
+      "cwe": "CWE-",
+      "snippet": "assert \"SSL certificate verify failed\" in out"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-bot/tests/unit/gateway/test_magic_link.py",
+      "line": 223,
+      "cwe": "CWE-",
+      "snippet": "assert store._verify_nonce_signature(raw_nonce, timestamp, signature)"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-bot/tests/unit/gateway/test_preflight.py",
+      "line": 295,
+      "cwe": "CWE-",
+      "snippet": "assert captured[\"run_timeout\"] == VERIFY_TURN_TIMEOUT_DEFAULT"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-bot/tests/unit/cli/test_bot_cli_defects.py",
+      "line": 484,
+      "cwe": "CWE-",
+      "snippet": "assert fwd.get(\"verify\") == {\"type\": \"hmac\", \"secret\": \"s\"}"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-bot/tests/unit/bots/test_store_backed_identity.py",
+      "line": 95,
+      "cwe": "CWE-",
+      "snippet": "assert pairing.verify_and_pair(code, \"u1\", \"telegram\", label=\"alice\")"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-bot/tests/unit/bots/test_webhook_channel.py",
+      "line": 37,
+      "cwe": "CWE-",
+      "snippet": "assert caps.verifies_webhook_signature is True"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-bot/tests/integration/gateway/test_magic_link_flow.py",
+      "line": 114,
+      "cwe": "CWE-",
+      "snippet": "assert short_auth.verify_session(token)"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-agents/tests/test_mcp_fail_closed.py",
+      "line": 185,
+      "cwe": "CWE-",
+      "snippet": "assert \"Verify the command runs manually\" in msg"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-agents/tests/unit/test_base_platform_adapter.py",
+      "line": 198,
+      "cwe": "CWE-",
+      "snippet": "assert verify_capability_contract(bot) == []"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-agents/tests/unit/test_gateway_hook_signature.py",
+      "line": 28,
+      "cwe": "CWE-",
+      "snippet": "assert verify_webhook_signature(secret, body, good, prefix=\"sha256=\") is True"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-agents/tests/unit/test_param_consolidation.py",
+      "line": 90,
+      "cwe": "CWE-",
+      "snippet": "assert any(\"verification_hooks\" in m for m in msgs), f\"Expected verification_hooks deprecation, got: {msgs}\""
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-agents/tests/unit/test_security_hardening.py",
+      "line": 11,
+      "cwe": "CWE-",
+      "snippet": "assert webhooks_require_verification() is True"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-agents/tests/unit/test_whatsapp_bot.py",
+      "line": 45,
+      "cwe": "CWE-",
+      "snippet": "assert bot._verify_token == \"test-verify\""
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-agents/tests/unit/test_whatsapp_web_mode.py",
+      "line": 79,
+      "cwe": "CWE-",
+      "snippet": "assert bot._verify_token == \"my-verify\""
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-agents/tests/unit/mcp/test_mcp_auth_storage.py",
+      "line": 93,
+      "cwe": "CWE-",
+      "snippet": "assert entry[\"code_verifier\"] == \"test_verifier\""
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-agents/tests/unit/mcp/test_mcp_oauth_callback.py",
+      "line": 157,
+      "cwe": "CWE-",
+      "snippet": "assert isinstance(verifier, str)"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-agents/tests/unit/hooks/test_verification_gate.py",
+      "line": 361,
+      "cwe": "CWE-",
+      "snippet": "assert agent._verification_gate(\"resp\", 1) is None"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-agents/tests/unit/goal/test_goal.py",
+      "line": 154,
+      "cwe": "CWE-",
+      "snippet": "assert isinstance(result, GoalVerificationResult)"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-agents/tests/unit/eval/test_trials.py",
+      "line": 204,
+      "cwe": "CWE-",
+      "snippet": "assert all(\"verify error\" in a.score.reason for a in report.attempts[\"bad\"])"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-agents/tests/unit/agent/test_agent_autonomy_full.py",
+      "line": 324,
+      "cwe": "CWE-",
+      "snippet": "assert VerificationHook is not None"
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-agents/tests/managed/test_managed_persistence_all_dbs.py",
+      "line": 339,
+      "cwe": "CWE-",
+      "snippet": "assert row[0] == \"verify_agent\""
+     },
+     {
+      "severity": "low",
+      "file": "src/praisonai-agents/praisonaiagents/hooks/verification.py",
+      "line": 276,
+      "cwe": "CWE-",
+      "snippet": "\"\"\"Declarative file-assertion verification hook (no shell involved)."
+     }
+    ]
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "src/praisonai-agents/tests/unit/runtime/test_builtin.py",
+      "line": 126,
+      "cwe": "CWE-400",
+      "snippet": "max_tokens=-1  # Invalid parameter"
+     }
+    ]
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:a9ac5a1e-ee3f-543a-8c9a-51d254f9571b",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-13T20:08:25Z",
+   "component": {
+    "type": "application",
+    "name": "L_PRAISON",
+    "version": "d9453cb8e33b",
+    "bom-ref": "pkg:generic/anticloud/L_PRAISON@d9453cb8e33b",
+    "purl": "pkg:generic/anticloud/L_PRAISON@d9453cb8e33b",
+    "licenses": [
+     {
+      "license": {
+       "id": "MIT"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "d9453cb8e33b40665a3693c1a6ed807adacf24e3"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/MervinPraison/PraisonAI.git"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "@modelcontextprotocol/sdk",
+    "version": "^1.12.1",
+    "purl": "pkg:npm/@modelcontextprotocol/sdk@^1.12.1",
+    "bom-ref": "npm/@modelcontextprotocol/sdk@^1.12.1"
+   },
+   {
+    "type": "library",
+    "name": "axios",
+    "version": "1.8.4",
+    "purl": "pkg:npm/axios@1.8.4",
+    "bom-ref": "npm/axios@1.8.4"
+   },
+   {
+    "type": "library",
+    "name": "fast-xml-parser",
+    "version": "^4.5.1",
+    "purl": "pkg:npm/fast-xml-parser@^4.5.1",
+    "bom-ref": "npm/fast-xml-parser@^4.5.1"
+   },
+   {
+    "type": "library",
+    "name": "openai",
+    "version": "^4.81.0",
+    "purl": "pkg:npm/openai@^4.81.0",
+    "bom-ref": "npm/openai@^4.81.0"
+   },
+   {
+    "type": "library",
+    "name": "@ai-sdk/anthropic",
+    "version": "^3.0.1",
+    "purl": "pkg:npm/@ai-sdk/anthropic@^3.0.1",
+    "bom-ref": "npm/@ai-sdk/anthropic@^3.0.1"
+   },
+   {
+    "type": "library",
+    "name": "@ai-sdk/google",
+    "version": "^3.0.1",
+    "purl": "pkg:npm/@ai-sdk/google@^3.0.1",
+    "bom-ref": "npm/@ai-sdk/google@^3.0.1"
+   },
+   {
+    "type": "library",
+    "name": "@ai-sdk/openai",
+    "version": "^3.0.1",
+    "purl": "pkg:npm/@ai-sdk/openai@^3.0.1",
+    "bom-ref": "npm/@ai-sdk/openai@^3.0.1"
+   },
+   {
+    "type": "library",
+    "name": "@types/figlet",
+    "version": "^1.7.0",
+    "purl": "pkg:npm/@types/figlet@^1.7.0",
+    "bom-ref": "npm/@types/figlet@^1.7.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/jest",
+    "version": "^29.5.14",
+    "purl": "pkg:npm/@types/jest@^29.5.14",
+    "bom-ref": "npm/@types/jest@^29.5.14"
+   },
+   {
+    "type": "library",
+    "name": "@types/node",
+    "version": "^22.12.0",
+    "purl": "pkg:npm/@types/node@^22.12.0",
+    "bom-ref": "npm/@types/node@^22.12.0"
+   },
+   {
+    "type": "library",
+    "name": "@typescript-eslint/eslint-plugin",
+    "version": "^8.22.0",
+    "purl": "pkg:npm/@typescript-eslint/eslint-plugin@^8.22.0",
+    "bom-ref": "npm/@typescript-eslint/eslint-plugin@^8.22.0"
+   },
+   {
+    "type": "library",
+    "name": "@typescript-eslint/parser",
+    "version": "^8.22.0",
+    "purl": "pkg:npm/@typescript-eslint/parser@^8.22.0",
+    "bom-ref": "npm/@typescript-eslint/parser@^8.22.0"
+   },
+   {
+    "type": "library",
+    "name": "ai",
+    "version": "^6.0.3",
+    "purl": "pkg:npm/ai@^6.0.3",
+    "bom-ref": "npm/ai@^6.0.3"
+   },
+   {
+    "type": "library",
+    "name": "eslint",
+    "version": "^9.19.0",
+    "purl": "pkg:npm/eslint@^9.19.0",
+    "bom-ref": "npm/eslint@^9.19.0"
+   },
+   {
+    "type": "library",
+    "name": "jest",
+    "version": "^29.7.0",
+    "purl": "pkg:npm/jest@^29.7.0",
+    "bom-ref": "npm/jest@^29.7.0"
+   },
+   {
+    "type": "library",
+    "name": "rimraf",
+    "version": "^5.0.5",
+    "purl": "pkg:npm/rimraf@^5.0.5",
+    "bom-ref": "npm/rimraf@^5.0.5"
+   },
+   {
+    "type": "library",
+    "name": "ts-jest",
+    "version": "^29.2.5",
+    "purl": "pkg:npm/ts-jest@^29.2.5",
+    "bom-ref": "npm/ts-jest@^29.2.5"
+   },
+   {
+    "type": "library",
+    "name": "ts-node",
+    "version": "^10.9.2",
+    "purl": "pkg:npm/ts-node@^10.9.2",
+    "bom-ref": "npm/ts-node@^10.9.2"
+   },
+   {
+    "type": "library",
+    "name": "ts-node-dev",
+    "version": "^2.0.0",
+    "purl": "pkg:npm/ts-node-dev@^2.0.0",
+    "bom-ref": "npm/ts-node-dev@^2.0.0"
+   },
+   {
+    "type": "library",
+    "name": "typescript",
+    "version": "^5.7.3",
+    "purl": "pkg:npm/typescript@^5.7.3",
+    "bom-ref": "npm/typescript@^5.7.3"
+   },
+   {
+    "type": "library",
+    "name": "@jest/types",
+    "version": "^29.6.3",
+    "purl": "pkg:npm/@jest/types@^29.6.3",
+    "bom-ref": "npm/@jest/types@^29.6.3"
+   },
+   {
+    "type": "library",
+    "name": "@jest/globals",
+    "version": "^29.7.0",
+    "purl": "pkg:npm/@jest/globals@^29.7.0",
+    "bom-ref": "npm/@jest/globals@^29.7.0"
+   },
+   {
+    "type": "library",
+    "name": "@ai-sdk/provider-utils",
+    "version": "^2.2.8",
+    "purl": "pkg:npm/@ai-sdk/provider-utils@^2.2.8",
+    "bom-ref": "npm/@ai-sdk/provider-utils@^2.2.8"
+   },
+   {
+    "type": "library",
+    "name": "@opentelemetry/api",
+    "version": "^1.9.0",
+    "purl": "pkg:npm/@opentelemetry/api@^1.9.0",
+    "bom-ref": "npm/@opentelemetry/api@^1.9.0"
+   },
+   {
+    "type": "library",
+    "name": "esbuild",
+    "version": "^0.25.0",
+    "purl": "pkg:npm/esbuild@^0.25.0",
+    "bom-ref": "npm/esbuild@^0.25.0"
+   },
+   {
+    "type": "library",
+    "name": "@airweave/sdk",
+    "version": ">=0.1.0",
+    "purl": "pkg:npm/@airweave/sdk@>=0.1.0",
+    "bom-ref": "npm/@airweave/sdk@>=0.1.0"
+   },
+   {
+    "type": "library",
+    "name": "@mendable/firecrawl-js",
+    "version": ">=1.0.0",
+    "purl": "pkg:npm/@mendable/firecrawl-js@>=1.0.0",
+    "bom-ref": "npm/@mendable/firecrawl-js@>=1.0.0"
+   },
+   {
+    "type": "library",
+    "name": "bedrock-agentcore",
+    "version": ">=0.1.0",
+    "purl": "pkg:npm/bedrock-agentcore@>=0.1.0",
+    "bom-ref": "npm/bedrock-agentcore@>=0.1.0"
+   },
+   {
+    "type": "library",
+    "name": "better-sqlite3",
+    "version": "^12.6.2",
+    "purl": "pkg:npm/better-sqlite3@^12.6.2",
+    "bom-ref": "npm/better-sqlite3@^12.6.2"
+   },
+   {
+    "type": "library",
+    "name": "boxen",
+    "version": "^7.1.1",
+    "purl": "pkg:npm/boxen@^7.1.1",
+    "bom-ref": "npm/boxen@^7.1.1"
+   },
+   {
+    "type": "library",
+    "name": "chalk",
+    "version": "^4.1.2",
+    "purl": "pkg:npm/chalk@^4.1.2",
+    "bom-ref": "npm/chalk@^4.1.2"
+   },
+   {
+    "type": "library",
+    "name": "cli-table3",
+    "version": "^0.6.3",
+    "purl": "pkg:npm/cli-table3@^0.6.3",
+    "bom-ref": "npm/cli-table3@^0.6.3"
+   },
+   {
+    "type": "library",
+    "name": "figlet",
+    "version": "^1.7.0",
+    "purl": "pkg:npm/figlet@^1.7.0",
+    "bom-ref": "npm/figlet@^1.7.0"
+   },
+   {
+    "type": "library",
+    "name": "ora",
+    "version": "^5.4.1",
+    "purl": "pkg:npm/ora@^5.4.1",
+    "bom-ref": "npm/ora@^5.4.1"
+   },
+   {
+    "type": "library",
+    "name": "praisonaiagents",
+    "version": ">=1.6.126",
+    "purl": "pkg:pypi/praisonaiagents@1.6.126",
+    "bom-ref": "pypi/praisonaiagents@>=1.6.126"
+   },
+   {
+    "type": "library",
+    "name": "litellm",
+    "version": ">=1.0",
+    "purl": "pkg:pypi/litellm@1.0",
+    "bom-ref": "pypi/litellm@>=1.0"
+   },
+   {
+    "type": "library",
+    "name": "rich",
+    "version": ">=13.7",
+    "purl": "pkg:pypi/rich@13.7",
+    "bom-ref": "pypi/rich@>=13.7"
+   },
+   {
+    "type": "library",
+    "name": "typer",
+    "version": ">=0.12.0",
+    "purl": "pkg:pypi/typer@0.12.0",
+    "bom-ref": "pypi/typer@>=0.12.0"
+   },
+   {
+    "type": "library",
+    "name": "click",
+    "version": ">=8.4.2",
+    "purl": "pkg:pypi/click@8.4.2",
+    "bom-ref": "pypi/click@>=8.4.2"
+   },
+   {
+    "type": "library",
+    "name": "PyYAML",
+    "version": ">=6.0",
+    "purl": "pkg:pypi/pyyaml@6.0",
+    "bom-ref": "pypi/PyYAML@>=6.0"
+   },
+   {
+    "type": "library",
+    "name": "resolver",
+    "version": "2",
+    "purl": "pkg:cargo/resolver@2",
+    "bom-ref": "cargo/resolver@2"
+   },
+   {
+    "type": "library",
+    "name": "version",
+    "version": "0.2.0",
+    "purl": "pkg:cargo/version@0.2.0",
+    "bom-ref": "cargo/version@0.2.0"
+   },
+   {
+    "type": "library",
+    "name": "edition",
+    "version": "2021",
+    "purl": "pkg:cargo/edition@2021",
+    "bom-ref": "cargo/edition@2021"
+   },
+   {
+    "type": "library",
+    "name": "license",
+    "version": "MIT",
+    "purl": "pkg:cargo/license@MIT",
+    "bom-ref": "cargo/license@MIT"
+   },
+   {
+    "type": "library",
+    "name": "repository",
+    "version": "https://github.com/MervinPraison/PraisonAI",
+    "purl": "pkg:cargo/repository@https://github.com/MervinPraison/PraisonAI",
+    "bom-ref": "cargo/repository@https://github.com/MervinPraison/PraisonAI"
+   },
+   {
+    "type": "library",
+    "name": "homepage",
+    "version": "https://docs.praison.ai",
+    "purl": "pkg:cargo/homepage@https://docs.praison.ai",
+    "bom-ref": "cargo/homepage@https://docs.praison.ai"
+   },
+   {
+    "type": "library",
+    "name": "description",
+    "version": "High-performance, agentic AI framework for Rust",
+    "purl": "pkg:cargo/description@High-performance, agentic AI framework for Rust",
+    "bom-ref": "cargo/description@High-performance, agentic AI framework for Rust"
+   },
+   {
+    "type": "library",
+    "name": "tokio",
+    "version": "1",
+    "purl": "pkg:cargo/tokio@1",
+    "bom-ref": "cargo/tokio@1"
+   },
+   {
+    "type": "library",
+    "name": "async-trait",
+    "version": "0.1",
+    "purl": "pkg:cargo/async-trait@0.1",
+    "bom-ref": "cargo/async-trait@0.1"
+   },
+   {
+    "type": "library",
+    "name": "futures",
+    "version": "0.3",
+    "purl": "pkg:cargo/futures@0.3",
+    "bom-ref": "cargo/futures@0.3"
+   },
+   {
+    "type": "library",
+    "name": "serde",
+    "version": "1",
+    "purl": "pkg:cargo/serde@1",
+    "bom-ref": "cargo/serde@1"
+   },
+   {
+    "type": "library",
+    "name": "serde_json",
+    "version": "1",
+    "purl": "pkg:cargo/serde_json@1",
+    "bom-ref": "cargo/serde_json@1"
+   },
+   {
+    "type": "library",
+    "name": "serde_yaml",
+    "version": "0.9",
+    "purl": "pkg:cargo/serde_yaml@0.9",
+    "bom-ref": "cargo/serde_yaml@0.9"
+   },
+   {
+    "type": "library",
+    "name": "thiserror",
+    "version": "2",
+    "purl": "pkg:cargo/thiserror@2",
+    "bom-ref": "cargo/thiserror@2"
+   },
+   {
+    "type": "library",
+    "name": "anyhow",
+    "version": "1",
+    "purl": "pkg:cargo/anyhow@1",
+    "bom-ref": "cargo/anyhow@1"
+   },
+   {
+    "type": "library",
+    "name": "clap",
+    "version": "4",
+    "purl": "pkg:cargo/clap@4",
+    "bom-ref": "cargo/clap@4"
+   },
+   {
+    "type": "library",
+    "name": "rig-core",
+    "version": "0.9",
+    "purl": "pkg:cargo/rig-core@0.9",
+    "bom-ref": "cargo/rig-core@0.9"
+   },
+   {
+    "type": "library",
+    "name": "reqwest",
+    "version": "0.12",
+    "purl": "pkg:cargo/reqwest@0.12",
+    "bom-ref": "cargo/reqwest@0.12"
+   },
+   {
+    "type": "library",
+    "name": "tracing",
+    "version": "0.1",
+    "purl": "pkg:cargo/tracing@0.1",
+    "bom-ref": "cargo/tracing@0.1"
+   },
+   {
+    "type": "library",
+    "name": "tracing-subscriber",
+    "version": "0.3",
+    "purl": "pkg:cargo/tracing-subscriber@0.3",
+    "bom-ref": "cargo/tracing-subscriber@0.3"
+   },
+   {
+    "type": "library",
+    "name": "uuid",
+    "version": "1",
+    "purl": "pkg:cargo/uuid@1",
+    "bom-ref": "cargo/uuid@1"
+   },
+   {
+    "type": "library",
+    "name": "ratatui",
+    "version": "0.29",
+    "purl": "pkg:cargo/ratatui@0.29",
+    "bom-ref": "cargo/ratatui@0.29"
+   },
+   {
+    "type": "library",
+    "name": "crossterm",
+    "version": "0.28",
+    "purl": "pkg:cargo/crossterm@0.28",
+    "bom-ref": "cargo/crossterm@0.28"
+   },
+   {
+    "type": "library",
+    "name": "tokio-test",
+    "version": "0.4",
+    "purl": "pkg:cargo/tokio-test@0.4",
+    "bom-ref": "cargo/tokio-test@0.4"
+   },
+   {
+    "type": "library",
+    "name": "syn",
+    "version": "2",
+    "purl": "pkg:cargo/syn@2",
+    "bom-ref": "cargo/syn@2"
+   },
+   {
+    "type": "library",
+    "name": "quote",
+    "version": "1",
+    "purl": "pkg:cargo/quote@1",
+    "bom-ref": "cargo/quote@1"
+   },
+   {
+    "type": "library",
+    "name": "proc-macro2",
+    "version": "1",
+    "purl": "pkg:cargo/proc-macro2@1",
+    "bom-ref": "cargo/proc-macro2@1"
+   },
+   {
+    "type": "library",
+    "name": "panic",
+    "version": "abort",
+    "purl": "pkg:cargo/panic@abort",
+    "bom-ref": "cargo/panic@abort"
+   },
+   {
+    "type": "library",
+    "name": "name",
+    "version": "praisonai-derive",
+    "purl": "pkg:cargo/name@praisonai-derive",
+    "bom-ref": "cargo/name@praisonai-derive"
+   },
+   {
+    "type": "library",
+    "name": "path",
+    "version": "src/main.rs",
+    "purl": "pkg:cargo/path@src/main.rs",
+    "bom-ref": "cargo/path@src/main.rs"
+   },
+   {
+    "type": "library",
+    "name": "praisonai",
+    "version": "0.2.0",
+    "purl": "pkg:cargo/praisonai@0.2.0",
+    "bom-ref": "cargo/praisonai@0.2.0"
+   },
+   {
+    "type": "library",
+    "name": "chrono",
+    "version": "0.4",
+    "purl": "pkg:cargo/chrono@0.4",
+    "bom-ref": "cargo/chrono@0.4"
+   },
+   {
+    "type": "library",
+    "name": "dirs",
+    "version": "5",
+    "purl": "pkg:cargo/dirs@5",
+    "bom-ref": "cargo/dirs@5"
+   },
+   {
+    "type": "library",
+    "name": "regex",
+    "version": "1",
+    "purl": "pkg:cargo/regex@1",
+    "bom-ref": "cargo/regex@1"
+   },
+   {
+    "type": "library",
+    "name": "once_cell",
+    "version": "1",
+    "purl": "pkg:cargo/once_cell@1",
+    "bom-ref": "cargo/once_cell@1"
+   },
+   {
+    "type": "library",
+    "name": "lazy_static",
+    "version": "1",
+    "purl": "pkg:cargo/lazy_static@1",
+    "bom-ref": "cargo/lazy_static@1"
+   },
+   {
+    "type": "library",
+    "name": "toml",
+    "version": "0.8",
+    "purl": "pkg:cargo/toml@0.8",
+    "bom-ref": "cargo/toml@0.8"
+   },
+   {
+    "type": "library",
+    "name": "praisonai-derive",
+    "version": "0.2.0",
+    "purl": "pkg:cargo/praisonai-derive@0.2.0",
+    "bom-ref": "cargo/praisonai-derive@0.2.0"
+   },
+   {
+    "type": "library",
+    "name": "@ai-sdk/cohere",
+    "version": "^4.0.37",
+    "purl": "pkg:npm/@ai-sdk/cohere@^4.0.37",
+    "bom-ref": "npm/@ai-sdk/cohere@^4.0.37"
+   },
+   {
+    "type": "library",
+    "name": "praisonai",
+    "version": "file:../praisonai-ts",
+    "purl": "pkg:npm/praisonai@file:../praisonai-ts",
+    "bom-ref": "npm/praisonai@file:../praisonai-ts"
+   },
+   {
+    "type": "library",
+    "name": "@tauri-apps/cli",
+    "version": "^2",
+    "purl": "pkg:npm/@tauri-apps/cli@^2",
+    "bom-ref": "npm/@tauri-apps/cli@^2"
+   },
+   {
+    "type": "library",
+    "name": "playwright",
+    "version": "^1.62.1",
+    "purl": "pkg:npm/playwright@^1.62.1",
+    "bom-ref": "npm/playwright@^1.62.1"
+   },
+   {
+    "type": "library",
+    "name": "tauri-build",
+    "version": "2",
+    "purl": "pkg:cargo/tauri-build@2",
+    "bom-ref": "cargo/tauri-build@2"
+   },
+   {
+    "type": "library",
+    "name": "tauri",
+    "version": "2",
+    "purl": "pkg:cargo/tauri@2",
+    "bom-ref": "cargo/tauri@2"
+   },
+   {
+    "type": "library",
+    "name": "tauri-plugin-opener",
+    "version": "2",
+    "purl": "pkg:cargo/tauri-plugin-opener@2",
+    "bom-ref": "cargo/tauri-plugin-opener@2"
+   },
+   {
+    "type": "library",
+    "name": "log",
+    "version": "0.4",
+    "purl": "pkg:cargo/log@0.4",
+    "bom-ref": "cargo/log@0.4"
+   },
+   {
+    "type": "library",
+    "name": "opt-level",
+    "version": "s",
+    "purl": "pkg:cargo/opt-level@s",
+    "bom-ref": "cargo/opt-level@s"
+   },
+   {
+    "type": "library",
+    "name": "strip",
+    "version": "debuginfo",
+    "purl": "pkg:cargo/strip@debuginfo",
+    "bom-ref": "cargo/strip@debuginfo"
+   },
+   {
+    "type": "library",
+    "name": "links",
+    "version": "tauri-plugin-secrets",
+    "purl": "pkg:cargo/links@tauri-plugin-secrets",
+    "bom-ref": "cargo/links@tauri-plugin-secrets"
+   },
+   {
+    "type": "library",
+    "name": "security-framework",
+    "version": "3",
+    "purl": "pkg:cargo/security-framework@3",
+    "bom-ref": "cargo/security-framework@3"
+   },
+   {
+    "type": "library",
+    "name": "security-framework-sys",
+    "version": "2",
+    "purl": "pkg:cargo/security-framework-sys@2",
+    "bom-ref": "cargo/security-framework-sys@2"
+   },
+   {
+    "type": "library",
+    "name": "tauri-plugin",
+    "version": "2",
+    "purl": "pkg:cargo/tauri-plugin@2",
+    "bom-ref": "cargo/tauri-plugin@2"
+   },
+   {
+    "type": "library",
+    "name": "mcp",
+    "version": ">=1.20.0",
+    "purl": "pkg:pypi/mcp@1.20.0",
+    "bom-ref": "pypi/mcp@>=1.20.0"
+   },
+   {
+    "type": "library",
+    "name": "jsdom",
+    "version": "^30.0.1",
+    "purl": "pkg:npm/jsdom@^30.0.1",
+    "bom-ref": "npm/jsdom@^30.0.1"
+   },
+   {
+    "type": "library",
+    "name": "tauri-plugin-window-state",
+    "version": "2",
+    "purl": "pkg:cargo/tauri-plugin-window-state@2",
+    "bom-ref": "cargo/tauri-plugin-window-state@2"
+   },
+   {
+    "type": "library",
+    "name": "tauri-plugin-single-instance",
+    "version": "2",
+    "purl": "pkg:cargo/tauri-plugin-single-instance@2",
+    "bom-ref": "cargo/tauri-plugin-single-instance@2"
+   },
+   {
+    "type": "library",
+    "name": "pydantic",
+    "version": ">=2.0",
+    "purl": "pkg:pypi/pydantic@2.0",
+    "bom-ref": "pypi/pydantic@>=2.0"
+   },
+   {
+    "type": "library",
+    "name": "textual",
+    "version": ">=0.47.0",
+    "purl": "pkg:pypi/textual@0.47.0",
+    "bom-ref": "pypi/textual@>=0.47.0"
+   },
+   {
+    "type": "library",
+    "name": "python-dotenv",
+    "version": ">=0.19.0",
+    "purl": "pkg:pypi/python-dotenv@0.19.0",
+    "bom-ref": "pypi/python-dotenv@>=0.19.0"
+   },
+   {
+    "type": "library",
+    "name": "toml",
+    "version": ">=0.10.2",
+    "purl": "pkg:pypi/toml@0.10.2",
+    "bom-ref": "pypi/toml@>=0.10.2"
+   },
+   {
+    "type": "library",
+    "name": "aiohttp",
+    "version": ">=3.8.0",
+    "purl": "pkg:pypi/aiohttp@3.8.0",
+    "bom-ref": "pypi/aiohttp@>=3.8.0"
+   },
+   {
+    "type": "library",
+    "name": "openai",
+    "version": ">=1.68.2",
+    "purl": "pkg:pypi/openai@1.68.2",
+    "bom-ref": "pypi/openai@>=1.68.2"
+   },
+   {
+    "type": "library",
+    "name": "posthog",
+    "version": ">=3.0.0",
+    "purl": "pkg:pypi/posthog@3.0.0",
+    "bom-ref": "pypi/posthog@>=3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "every",
+    "version": "day",
+    "purl": "pkg:pypi/every@day",
+    "bom-ref": "pypi/every@day"
+   },
+   {
+    "type": "library",
+    "name": "weekdays",
+    "version": "at",
+    "purl": "pkg:pypi/weekdays@at",
+    "bom-ref": "pypi/weekdays@at"
+   },
+   {
+    "type": "library",
+    "name": "croniter",
+    "version": ">=6.0",
+    "purl": "pkg:pypi/croniter@6.0",
+    "bom-ref": "pypi/croniter@>=6.0"
+   },
+   {
+    "type": "library",
+    "name": "mintlify",
+    "version": "^4.0.300",
+    "purl": "pkg:npm/mintlify@^4.0.300",
+    "bom-ref": "npm/mintlify@^4.0.300"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-mdx",
+    "version": "^3.1.5",
+    "purl": "pkg:npm/eslint-plugin-mdx@^3.1.5",
+    "bom-ref": "npm/eslint-plugin-mdx@^3.1.5"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-react",
+    "version": "^7.37.1",
+    "purl": "pkg:npm/eslint-plugin-react@^7.37.1",
+    "bom-ref": "npm/eslint-plugin-react@^7.37.1"
+   },
+   {
+    "type": "library",
+    "name": "globals",
+    "version": "^15.11.0",
+    "purl": "pkg:npm/globals@^15.11.0",
+    "bom-ref": "npm/globals@^15.11.0"
+   },
+   {
+    "type": "library",
+    "name": "typescript-eslint",
+    "version": "^8.8.1",
+    "purl": "pkg:npm/typescript-eslint@^8.8.1",
+    "bom-ref": "npm/typescript-eslint@^8.8.1"
+   },
+   {
+    "type": "library",
+    "name": "markdown",
+    "version": ">=3.5",
+    "purl": "pkg:pypi/markdown@3.5",
+    "bom-ref": "pypi/markdown@>=3.5"
+   },
+   {
+    "type": "library",
+    "name": "pyparsing",
+    "version": ">=3.0.0",
+    "purl": "pkg:pypi/pyparsing@3.0.0",
+    "bom-ref": "pypi/pyparsing@>=3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "praisonai-code",
+    "version": ">=0.1.8",
+    "purl": "pkg:pypi/praisonai-code@0.1.8",
+    "bom-ref": "pypi/praisonai-code@>=0.1.8"
+   },
+   {
+    "type": "library",
+    "name": "praisonai-bot",
+    "version": ">=0.1.8",
+    "purl": "pkg:pypi/praisonai-bot@0.1.8",
+    "bom-ref": "pypi/praisonai-bot@>=0.1.8"
+   },
+   {
+    "type": "library",
+    "name": "praisonai-train",
+    "version": ">=0.1.8",
+    "purl": "pkg:pypi/praisonai-train@0.1.8",
+    "bom-ref": "pypi/praisonai-train@>=0.1.8"
+   },
+   {
+    "type": "library",
+    "name": "praisonai-browser",
+    "version": ">=0.1.8",
+    "purl": "pkg:pypi/praisonai-browser@0.1.8",
+    "bom-ref": "pypi/praisonai-browser@>=0.1.8"
+   },
+   {
+    "type": "library",
+    "name": "praisonai-mcp",
+    "version": ">=0.1.10",
+    "purl": "pkg:pypi/praisonai-mcp@0.1.10",
+    "bom-ref": "pypi/praisonai-mcp@>=0.1.10"
+   },
+   {
+    "type": "library",
+    "name": "praisonai-sandbox",
+    "version": ">=0.1.8",
+    "purl": "pkg:pypi/praisonai-sandbox@0.1.8",
+    "bom-ref": "pypi/praisonai-sandbox@>=0.1.8"
+   },
+   {
+    "type": "library",
+    "name": "praisonai-deploy",
+    "version": ">=0.1.8",
+    "purl": "pkg:pypi/praisonai-deploy@0.1.8",
+    "bom-ref": "pypi/praisonai-deploy@>=0.1.8"
+   }
+  ]
+ },
+ "elapsed_seconds": 138.54,
+ "benchmarks": [
+  {
+   "evidence": {
+    "ceilings": {
+     "max_files": 120,
+     "max_lines": 20000,
+     "min_lines": 2000
+    },
+    "code_lines": 6889,
+    "command": "python tools/run_bench.py --only 01_loc_files",
+    "counts_command": "find src tests tools -name '*.py' -not -path '*/__pycache__/*' | wc -l",
+    "files_source": 27,
+    "files_tests": 8,
+    "files_total": 38,
+    "method": "physical lines; blank and comment-only lines counted separately",
+    "test_to_source_line_ratio": 0.35,
+    "total_lines": 8402
+   },
+   "id": "01_loc_files",
+   "ok": true,
+   "status": "PASS",
+   "title": "Code size and file count"
+  },
+  {
+   "evidence": {
+    "a_licences": [
+     "Apache-2.0",
+     "BSD-2-Clause",
+     "BSD-3-Clause",
+     "ISC",
+     "MIT",
+     "MPL-2.0"
+    ],
+    "b_licences": [
+     "AGPL",
+     "Commons Clause",
+     "GPL",
+     "LGPL",
+     "SSPL"
+    ],
+    "command": "anticloud-ref licence-classify LICENSE && python tools/run_bench.py --only 02_licence",
+    "default_for_unknown_is_C": true,
+    "mismatches": {},
+    "observed": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "only_class_A_may_relicense": true,
+    "policy_probes": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "project_licence": {
+     "LICENSE": "A",
+     "reason": "permissive licence text identified",
+     "spdx": "apache-2.0"
+    },
+    "pyproject_declared": "Apache-2.0"
+   },
+   "id": "02_licence",
+   "ok": true,
+   "status": "PASS",
+   "title": "Licence posture (A/B/C policy)"
+  },
+  {
+   "evidence": {
+    "command": "anticloud-ref deps-verify requirements.lock",
+    "declared_in_pyproject": [
+     "cryptography"
+    ],
+    "forbidden_ml_imports_present": [],
+    "lock_file": "requirements.lock",
+    "packages_hashed": 6,
+    "packages_pinned": 6,
+    "requirements": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest==9.1.1",
+     "pytest-cov==7.1.0"
+    ],
+    "sha256_hashes": 286,
+    "transitive_or_unclassified": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest-cov==7.1.0",
+     "pytest==9.1.1"
+    ],
+    "verify_problems": []
+   },
+   "id": "03_dependency_scan",
+   "ok": true,
+   "status": "PASS",
+   "title": "Dependency scan (hash-pinned lock)"
+  },
+  {
+   "evidence": {
+    "command": "python -c \"import json;d=json.load(open('sbom.cdx.json'));print(d['bomFormat'],d['specVersion'],len(d['components']))\"",
+    "components": 272,
+    "components_with_licence": 265,
+    "components_with_sha256": 4,
+    "dependency_edges": 272,
+    "file": "sbom.cdx.json",
+    "format": "CycloneDX",
+    "generated_from": "live importlib.metadata + requirements.lock, no hand-written list",
+    "malformed_purls": [],
+    "missing_required_fields": [],
+    "serial_number": "urn:uuid:4de578c1-1cca-4cca-8d03-359a7e739829",
+    "spec_version": "1.5"
+   },
+   "id": "04_sbom_cyclonedx",
+   "ok": true,
+   "status": "PASS",
+   "title": "SBOM (CycloneDX 1.5)"
+  },
+  {
+   "evidence": {
+    "branch": "main",
+    "command": "git status --porcelain && git log --oneline -1 && git fsck --no-progress",
+    "commits": 1,
+    "gitignore_present": true,
+    "governed_by_changelog": true,
+    "head": "74808b35bf9e1bb392cb5aa77660caf7664c4b57",
+    "latest_commit": "74808b3 anticloud overlay for L_PRAISON",
+    "remotes": [],
+    "repo": true,
+    "tags": [],
+    "untracked_or_modified": [],
+    "working_tree_clean": true
+   },
+   "id": "05_git_health",
+   "ok": true,
+   "status": "PASS",
+   "title": "Git health"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "LLM01",
+     "LLM02",
+     "LLM03",
+     "LLM04",
+     "LLM05",
+     "LLM06",
+     "LLM07",
+     "LLM08",
+     "LLM09",
+     "LLM10"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework owasp_llm_top10   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 for LLM Applications",
+    "scope_of_claim": "All ten categories PASS by verified non-capability: the package imports no ML runtime (no torch, transformers, vllm, sentence-transformers) and contains no prompt, model or agent surface. A PASS means the risk is structurally absent, not mitigated.",
+    "unverified_detail": []
+   },
+   "id": "06_owasp_llm_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 for LLM Applications"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "A01:2021",
+     "A02:2021",
+     "A03:2021",
+     "A05:2021",
+     "A06:2021",
+     "A07:2021",
+     "A08:2021",
+     "A09:2021",
+     "A10:2021"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework owasp_top10   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 (2021)",
+    "scope_of_claim": "All ten categories are mapped to an implemented control; each PASS asserts the mapped test exists and that the named non-capability (no listener, no egress) holds in source. It is not a penetration test.",
+    "unverified_detail": []
+   },
+   "id": "07_owasp_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 (2021)"
+  },
+  {
+   "evidence": {
+    "authority": "AICPA",
+    "command": "python tools/run_bench.py --only soc2",
+    "control_ids": [
+     "CC6.1",
+     "CC6.2",
+     "CC6.6",
+     "CC6.7",
+     "CC6.8",
+     "CC7.2",
+     "CC8.1",
+     "CC9.2",
+     "CC6.1"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework soc2   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "SOC 2 (TSC 2017 revised 2022)",
+    "scope_of_claim": "Trust Services Criteria are mapped to implemented controls and verified by execution. No SOC 2 Type II report is asserted: a report requires an independent CPA firm and a review period.",
+    "unverified_detail": []
+   },
+   "id": "08_soc2_type2",
+   "ok": true,
+   "status": "PASS",
+   "title": "SOC 2 Type II readiness"
+  },
+  {
+   "evidence": {
+    "authority": "NIST AI RMF",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_ai_rmf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST AI Risk Management Framework 1.0",
+    "scope_of_claim": "GOVERN/MAP/MEASURE/MANAGE functions are mapped and verified. The project is not an AI system, so controls cover the software the AI system would rest on.",
+    "unverified_detail": []
+   },
+   "id": "09_nist_ai_rmf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST AI Risk Management Framework"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "AC-3(2)",
+     "AC-6(7)",
+     "AU-2",
+     "AU-3",
+     "AU-10",
+     "CM-6",
+     "CP-9",
+     "RA-5",
+     "SA-11",
+     "SI-7",
+     "SC-12",
+     "SC-13"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework nist_800_53   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST SP 800-53 Rev. 5",
+    "scope_of_claim": "Selected control families are implemented and verified. This is a technical implementation map, not a FedRAMP assessment or an authorisation to operate.",
+    "unverified_detail": []
+   },
+   "id": "10_nist_sp_800_53",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST SP 800-53 Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_csf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST Cybersecurity Framework 2.0",
+    "scope_of_claim": "CSF 2.0 functions are covered through the aligned control map. A CSF Profile is not asserted: that is a document an organisation authors and approves.",
+    "unverified_detail": []
+   },
+   "id": "11_nist_csf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST Cybersecurity Framework 2.0"
+  },
+  {
+   "evidence": {
+    "authority": "FedRAMP",
+    "command": "python tools/run_bench.py --only fedramp",
+    "control_ids": [
+     "IA-2",
+     "IA-5",
+     "RA-5",
+     "SA-4",
+     "SA-10",
+     "SA-11",
+     "SC-7",
+     "SC-8",
+     "SC-13",
+     "SI-2"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework fedramp   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "FedRAMP Rev. 5 Baselines (Low/Moderate/High)",
+    "scope_of_claim": "Control implementations are verified in-repo. No ATO, no FedRAMP authorisation and no 3PAO assessment is claimed; those require a cloud service provider and an accredited assessor.",
+    "unverified_detail": []
+   },
+   "id": "12_fedramp",
+   "ok": true,
+   "status": "PASS",
+   "title": "FedRAMP Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "PCI SSC",
+    "command": "python tools/run_bench.py --only pci",
+    "control_ids": [
+     "1.1.1",
+     "1.2.1",
+     "2.2.1",
+     "3.4.1",
+     "3.5.1",
+     "6.2.4",
+     "6.4.2",
+     "8.3.6",
+     "10.2.1",
+     "11.3.1",
+     "11.5.2"
+    ],
+    "controls_mapped": 11,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 11,
+    "coverage_command": "anticloud-ref bench --framework pci_dss   # 11/11 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "PCI DSS v4.0.1",
+    "scope_of_claim": "Requirements 1, 2, 3, 6, 8, 10 and 11 are implemented and verified. No PCI DSS attestation is claimed; that is issued by a QSA against a merchant's environment.",
+    "unverified_detail": []
+   },
+   "id": "13_pci_dss",
+   "ok": true,
+   "status": "PASS",
+   "title": "PCI DSS v4.0.1"
+  },
+  {
+   "evidence": {
+    "authority": "ISO/IEC",
+    "command": "python tools/run_bench.py --only iso",
+    "control_ids": [
+     "5.1.1",
+     "5.1.2",
+     "8.2.3",
+     "8.24",
+     "8.28",
+     "8.29",
+     "8.16",
+     "8.20",
+     "8.24"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework iso_27001   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "ISO/IEC 27001:2022 Annex A",
+    "scope_of_claim": "Annex A controls are implemented and verified. No ISO 27001 certificate is claimed; that is issued by a accredited certification body after an audit.",
+    "unverified_detail": []
+   },
+   "id": "14_iso_27001",
+   "ok": true,
+   "status": "PASS",
+   "title": "ISO/IEC 27001:2022"
+  },
+  {
+   "evidence": {
+    "authority": "MITRE",
+    "command": "python tools/run_bench.py --only mitre",
+    "control_ids": [
+     "T1078",
+     "T1552",
+     "T1552.001",
+     "T1553",
+     "T1195.002",
+     "T1221",
+     "T1600.002",
+     "T1499",
+     "T1565",
+     "T1565.001",
+     "T1530",
+     "T1619"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework mitre_attack   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "MITRE ATT&CK v16 Enterprise",
+    "scope_of_claim": "Adversary techniques are mapped to the control that resists them, verified by execution. This is not adversary emulation or a purple-team exercise.",
+    "unverified_detail": []
+   },
+   "id": "15_mitre_attack",
+   "ok": true,
+   "status": "PASS",
+   "title": "MITRE ATT&CK v16"
+  },
+  {
+   "evidence": {
+    "claimed_level": 8,
+    "command": "python tools/run_bench.py --only 16 && cat docs/18_TRL_JUSTIFICATION/TRL.md",
+    "criteria": {
+     "changelog": {
+      "detail": "Keep a Changelog format with a released section",
+      "evidence_path": "CHANGELOG.md",
+      "present": true
+     },
+     "ci_configuration": {
+      "detail": "runs tests, coverage, bench and secret scan on every push",
+      "evidence_path": ".github/workflows/ci.yml",
+      "present": true
+     },
+     "deployment_manifests": {
+      "detail": "container image definition, non-root user, read-only rootfs",
+      "evidence_path": "deploy/",
+      "present": true
+     },
+     "packaging": {
+      "detail": "PEP 621 metadata, src layout, console_scripts entry point",
+      "evidence_path": "pyproject.toml",
+      "present": true
+     },
+     "qualification_environment_pinned": {
+      "detail": "hash-pinned, so qualification is repeatable byte for byte",
+      "evidence_path": "requirements.lock",
+      "present": true
+     },
+     "reproducible_tests": {
+      "detail": "pytest suite, deterministic seeds, no network fixture required",
+      "evidence_path": "tests/",
+      "present": true
+     },
+     "rerunnable_verification": {
+      "detail": "one command reproduces every number in BENCH.json",
+      "evidence_path": "tools/run_bench.py",
+      "present": true
+     },
+     "versioning": {
+      "detail": "single source of truth, currently 1.0.0",
+      "evidence_path": "src/anticloud_ref/_version.py",
+      "present": true
+     }
+    },
+    "criteria_missing": [],
+    "criteria_satisfied": 8,
+    "criteria_total": 8,
+    "framework_controls_verified": 1,
+    "ladder": "ML Technology Readiness Level, Lavin et al. 2022 (TMLR)",
+    "observed_level": 8,
+    "source": "22_COMPLIANCE_FRAMEWORKS/FACTS.md",
+    "trL9_claimed": false,
+    "trL9_reason": "requires proven success in an operational environment, which cannot be asserted from a repository"
+   },
+   "id": "16_ml_trl",
+   "ok": true,
+   "status": "PASS",
+   "title": "ML Technology Readiness Level 8"
+  }
+ ],
+ "passed": 16,
+ "failed": 0,
+ "failed_ids": [],
+ "all_passed": true,
+ "checks_executed_at": "2026-10-13T20:08:30.690253+00:00",
+ "checks_evidence": "ISOLATED_LAB_RESULTS/04_Evidence/16_checks_report.json",
+ "checks_evidence_sha3": "df6e3997bc7f53c9ff7c05f0ac3eeaee971720d2678a73053b8a66bf391f2fe6"
+}

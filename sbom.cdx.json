@@ -1,0 +1,879 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:a9ac5a1e-ee3f-543a-8c9a-51d254f9571b",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:08:25Z",
+    "component": {
+      "type": "application",
+      "name": "L_PRAISON",
+      "version": "d9453cb8e33b",
+      "bom-ref": "pkg:generic/anticloud/L_PRAISON@d9453cb8e33b",
+      "purl": "pkg:generic/anticloud/L_PRAISON@d9453cb8e33b",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "d9453cb8e33b40665a3693c1a6ed807adacf24e3"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/MervinPraison/PraisonAI.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@modelcontextprotocol/sdk",
+      "version": "^1.12.1",
+      "purl": "pkg:npm/@modelcontextprotocol/sdk@^1.12.1",
+      "bom-ref": "npm/@modelcontextprotocol/sdk@^1.12.1"
+    },
+    {
+      "type": "library",
+      "name": "axios",
+      "version": "1.8.4",
+      "purl": "pkg:npm/axios@1.8.4",
+      "bom-ref": "npm/axios@1.8.4"
+    },
+    {
+      "type": "library",
+      "name": "fast-xml-parser",
+      "version": "^4.5.1",
+      "purl": "pkg:npm/fast-xml-parser@^4.5.1",
+      "bom-ref": "npm/fast-xml-parser@^4.5.1"
+    },
+    {
+      "type": "library",
+      "name": "openai",
+      "version": "^4.81.0",
+      "purl": "pkg:npm/openai@^4.81.0",
+      "bom-ref": "npm/openai@^4.81.0"
+    },
+    {
+      "type": "library",
+      "name": "@ai-sdk/anthropic",
+      "version": "^3.0.1",
+      "purl": "pkg:npm/@ai-sdk/anthropic@^3.0.1",
+      "bom-ref": "npm/@ai-sdk/anthropic@^3.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@ai-sdk/google",
+      "version": "^3.0.1",
+      "purl": "pkg:npm/@ai-sdk/google@^3.0.1",
+      "bom-ref": "npm/@ai-sdk/google@^3.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@ai-sdk/openai",
+      "version": "^3.0.1",
+      "purl": "pkg:npm/@ai-sdk/openai@^3.0.1",
+      "bom-ref": "npm/@ai-sdk/openai@^3.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@types/figlet",
+      "version": "^1.7.0",
+      "purl": "pkg:npm/@types/figlet@^1.7.0",
+      "bom-ref": "npm/@types/figlet@^1.7.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/jest",
+      "version": "^29.5.14",
+      "purl": "pkg:npm/@types/jest@^29.5.14",
+      "bom-ref": "npm/@types/jest@^29.5.14"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^22.12.0",
+      "purl": "pkg:npm/@types/node@^22.12.0",
+      "bom-ref": "npm/@types/node@^22.12.0"
+    },
+    {
+      "type": "library",
+      "name": "@typescript-eslint/eslint-plugin",
+      "version": "^8.22.0",
+      "purl": "pkg:npm/@typescript-eslint/eslint-plugin@^8.22.0",
+      "bom-ref": "npm/@typescript-eslint/eslint-plugin@^8.22.0"
+    },
+    {
+      "type": "library",
+      "name": "@typescript-eslint/parser",
+      "version": "^8.22.0",
+      "purl": "pkg:npm/@typescript-eslint/parser@^8.22.0",
+      "bom-ref": "npm/@typescript-eslint/parser@^8.22.0"
+    },
+    {
+      "type": "library",
+      "name": "ai",
+      "version": "^6.0.3",
+      "purl": "pkg:npm/ai@^6.0.3",
+      "bom-ref": "npm/ai@^6.0.3"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "^9.19.0",
+      "purl": "pkg:npm/eslint@^9.19.0",
+      "bom-ref": "npm/eslint@^9.19.0"
+    },
+    {
+      "type": "library",
+      "name": "jest",
+      "version": "^29.7.0",
+      "purl": "pkg:npm/jest@^29.7.0",
+      "bom-ref": "npm/jest@^29.7.0"
+    },
+    {
+      "type": "library",
+      "name": "rimraf",
+      "version": "^5.0.5",
+      "purl": "pkg:npm/rimraf@^5.0.5",
+      "bom-ref": "npm/rimraf@^5.0.5"
+    },
+    {
+      "type": "library",
+      "name": "ts-jest",
+      "version": "^29.2.5",
+      "purl": "pkg:npm/ts-jest@^29.2.5",
+      "bom-ref": "npm/ts-jest@^29.2.5"
+    },
+    {
+      "type": "library",
+      "name": "ts-node",
+      "version": "^10.9.2",
+      "purl": "pkg:npm/ts-node@^10.9.2",
+      "bom-ref": "npm/ts-node@^10.9.2"
+    },
+    {
+      "type": "library",
+      "name": "ts-node-dev",
+      "version": "^2.0.0",
+      "purl": "pkg:npm/ts-node-dev@^2.0.0",
+      "bom-ref": "npm/ts-node-dev@^2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^5.7.3",
+      "purl": "pkg:npm/typescript@^5.7.3",
+      "bom-ref": "npm/typescript@^5.7.3"
+    },
+    {
+      "type": "library",
+      "name": "@jest/types",
+      "version": "^29.6.3",
+      "purl": "pkg:npm/@jest/types@^29.6.3",
+      "bom-ref": "npm/@jest/types@^29.6.3"
+    },
+    {
+      "type": "library",
+      "name": "@jest/globals",
+      "version": "^29.7.0",
+      "purl": "pkg:npm/@jest/globals@^29.7.0",
+      "bom-ref": "npm/@jest/globals@^29.7.0"
+    },
+    {
+      "type": "library",
+      "name": "@ai-sdk/provider-utils",
+      "version": "^2.2.8",
+      "purl": "pkg:npm/@ai-sdk/provider-utils@^2.2.8",
+      "bom-ref": "npm/@ai-sdk/provider-utils@^2.2.8"
+    },
+    {
+      "type": "library",
+      "name": "@opentelemetry/api",
+      "version": "^1.9.0",
+      "purl": "pkg:npm/@opentelemetry/api@^1.9.0",
+      "bom-ref": "npm/@opentelemetry/api@^1.9.0"
+    },
+    {
+      "type": "library",
+      "name": "esbuild",
+      "version": "^0.25.0",
+      "purl": "pkg:npm/esbuild@^0.25.0",
+      "bom-ref": "npm/esbuild@^0.25.0"
+    },
+    {
+      "type": "library",
+      "name": "@airweave/sdk",
+      "version": ">=0.1.0",
+      "purl": "pkg:npm/@airweave/sdk@>=0.1.0",
+      "bom-ref": "npm/@airweave/sdk@>=0.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@mendable/firecrawl-js",
+      "version": ">=1.0.0",
+      "purl": "pkg:npm/@mendable/firecrawl-js@>=1.0.0",
+      "bom-ref": "npm/@mendable/firecrawl-js@>=1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "bedrock-agentcore",
+      "version": ">=0.1.0",
+      "purl": "pkg:npm/bedrock-agentcore@>=0.1.0",
+      "bom-ref": "npm/bedrock-agentcore@>=0.1.0"
+    },
+    {
+      "type": "library",
+      "name": "better-sqlite3",
+      "version": "^12.6.2",
+      "purl": "pkg:npm/better-sqlite3@^12.6.2",
+      "bom-ref": "npm/better-sqlite3@^12.6.2"
+    },
+    {
+      "type": "library",
+      "name": "boxen",
+      "version": "^7.1.1",
+      "purl": "pkg:npm/boxen@^7.1.1",
+      "bom-ref": "npm/boxen@^7.1.1"
+    },
+    {
+      "type": "library",
+      "name": "chalk",
+      "version": "^4.1.2",
+      "purl": "pkg:npm/chalk@^4.1.2",
+      "bom-ref": "npm/chalk@^4.1.2"
+    },
+    {
+      "type": "library",
+      "name": "cli-table3",
+      "version": "^0.6.3",
+      "purl": "pkg:npm/cli-table3@^0.6.3",
+      "bom-ref": "npm/cli-table3@^0.6.3"
+    },
+    {
+      "type": "library",
+      "name": "figlet",
+      "version": "^1.7.0",
+      "purl": "pkg:npm/figlet@^1.7.0",
+      "bom-ref": "npm/figlet@^1.7.0"
+    },
+    {
+      "type": "library",
+      "name": "ora",
+      "version": "^5.4.1",
+      "purl": "pkg:npm/ora@^5.4.1",
+      "bom-ref": "npm/ora@^5.4.1"
+    },
+    {
+      "type": "library",
+      "name": "praisonaiagents",
+      "version": ">=1.6.126",
+      "purl": "pkg:pypi/praisonaiagents@1.6.126",
+      "bom-ref": "pypi/praisonaiagents@>=1.6.126"
+    },
+    {
+      "type": "library",
+      "name": "litellm",
+      "version": ">=1.0",
+      "purl": "pkg:pypi/litellm@1.0",
+      "bom-ref": "pypi/litellm@>=1.0"
+    },
+    {
+      "type": "library",
+      "name": "rich",
+      "version": ">=13.7",
+      "purl": "pkg:pypi/rich@13.7",
+      "bom-ref": "pypi/rich@>=13.7"
+    },
+    {
+      "type": "library",
+      "name": "typer",
+      "version": ">=0.12.0",
+      "purl": "pkg:pypi/typer@0.12.0",
+      "bom-ref": "pypi/typer@>=0.12.0"
+    },
+    {
+      "type": "library",
+      "name": "click",
+      "version": ">=8.4.2",
+      "purl": "pkg:pypi/click@8.4.2",
+      "bom-ref": "pypi/click@>=8.4.2"
+    },
+    {
+      "type": "library",
+      "name": "PyYAML",
+      "version": ">=6.0",
+      "purl": "pkg:pypi/pyyaml@6.0",
+      "bom-ref": "pypi/PyYAML@>=6.0"
+    },
+    {
+      "type": "library",
+      "name": "resolver",
+      "version": "2",
+      "purl": "pkg:cargo/resolver@2",
+      "bom-ref": "cargo/resolver@2"
+    },
+    {
+      "type": "library",
+      "name": "version",
+      "version": "0.2.0",
+      "purl": "pkg:cargo/version@0.2.0",
+      "bom-ref": "cargo/version@0.2.0"
+    },
+    {
+      "type": "library",
+      "name": "edition",
+      "version": "2021",
+      "purl": "pkg:cargo/edition@2021",
+      "bom-ref": "cargo/edition@2021"
+    },
+    {
+      "type": "library",
+      "name": "license",
+      "version": "MIT",
+      "purl": "pkg:cargo/license@MIT",
+      "bom-ref": "cargo/license@MIT"
+    },
+    {
+      "type": "library",
+      "name": "repository",
+      "version": "https://github.com/MervinPraison/PraisonAI",
+      "purl": "pkg:cargo/repository@https://github.com/MervinPraison/PraisonAI",
+      "bom-ref": "cargo/repository@https://github.com/MervinPraison/PraisonAI"
+    },
+    {
+      "type": "library",
+      "name": "homepage",
+      "version": "https://docs.praison.ai",
+      "purl": "pkg:cargo/homepage@https://docs.praison.ai",
+      "bom-ref": "cargo/homepage@https://docs.praison.ai"
+    },
+    {
+      "type": "library",
+      "name": "description",
+      "version": "High-performance, agentic AI framework for Rust",
+      "purl": "pkg:cargo/description@High-performance, agentic AI framework for Rust",
+      "bom-ref": "cargo/description@High-performance, agentic AI framework for Rust"
+    },
+    {
+      "type": "library",
+      "name": "tokio",
+      "version": "1",
+      "purl": "pkg:cargo/tokio@1",
+      "bom-ref": "cargo/tokio@1"
+    },
+    {
+      "type": "library",
+      "name": "async-trait",
+      "version": "0.1",
+      "purl": "pkg:cargo/async-trait@0.1",
+      "bom-ref": "cargo/async-trait@0.1"
+    },
+    {
+      "type": "library",
+      "name": "futures",
+      "version": "0.3",
+      "purl": "pkg:cargo/futures@0.3",
+      "bom-ref": "cargo/futures@0.3"
+    },
+    {
+      "type": "library",
+      "name": "serde",
+      "version": "1",
+      "purl": "pkg:cargo/serde@1",
+      "bom-ref": "cargo/serde@1"
+    },
+    {
+      "type": "library",
+      "name": "serde_json",
+      "version": "1",
+      "purl": "pkg:cargo/serde_json@1",
+      "bom-ref": "cargo/serde_json@1"
+    },
+    {
+      "type": "library",
+      "name": "serde_yaml",
+      "version": "0.9",
+      "purl": "pkg:cargo/serde_yaml@0.9",
+      "bom-ref": "cargo/serde_yaml@0.9"
+    },
+    {
+      "type": "library",
+      "name": "thiserror",
+      "version": "2",
+      "purl": "pkg:cargo/thiserror@2",
+      "bom-ref": "cargo/thiserror@2"
+    },
+    {
+      "type": "library",
+      "name": "anyhow",
+      "version": "1",
+      "purl": "pkg:cargo/anyhow@1",
+      "bom-ref": "cargo/anyhow@1"
+    },
+    {
+      "type": "library",
+      "name": "clap",
+      "version": "4",
+      "purl": "pkg:cargo/clap@4",
+      "bom-ref": "cargo/clap@4"
+    },
+    {
+      "type": "library",
+      "name": "rig-core",
+      "version": "0.9",
+      "purl": "pkg:cargo/rig-core@0.9",
+      "bom-ref": "cargo/rig-core@0.9"
+    },
+    {
+      "type": "library",
+      "name": "reqwest",
+      "version": "0.12",
+      "purl": "pkg:cargo/reqwest@0.12",
+      "bom-ref": "cargo/reqwest@0.12"
+    },
+    {
+      "type": "library",
+      "name": "tracing",
+      "version": "0.1",
+      "purl": "pkg:cargo/tracing@0.1",
+      "bom-ref": "cargo/tracing@0.1"
+    },
+    {
+      "type": "library",
+      "name": "tracing-subscriber",
+      "version": "0.3",
+      "purl": "pkg:cargo/tracing-subscriber@0.3",
+      "bom-ref": "cargo/tracing-subscriber@0.3"
+    },
+    {
+      "type": "library",
+      "name": "uuid",
+      "version": "1",
+      "purl": "pkg:cargo/uuid@1",
+      "bom-ref": "cargo/uuid@1"
+    },
+    {
+      "type": "library",
+      "name": "ratatui",
+      "version": "0.29",
+      "purl": "pkg:cargo/ratatui@0.29",
+      "bom-ref": "cargo/ratatui@0.29"
+    },
+    {
+      "type": "library",
+      "name": "crossterm",
+      "version": "0.28",
+      "purl": "pkg:cargo/crossterm@0.28",
+      "bom-ref": "cargo/crossterm@0.28"
+    },
+    {
+      "type": "library",
+      "name": "tokio-test",
+      "version": "0.4",
+      "purl": "pkg:cargo/tokio-test@0.4",
+      "bom-ref": "cargo/tokio-test@0.4"
+    },
+    {
+      "type": "library",
+      "name": "syn",
+      "version": "2",
+      "purl": "pkg:cargo/syn@2",
+      "bom-ref": "cargo/syn@2"
+    },
+    {
+      "type": "library",
+      "name": "quote",
+      "version": "1",
+      "purl": "pkg:cargo/quote@1",
+      "bom-ref": "cargo/quote@1"
+    },
+    {
+      "type": "library",
+      "name": "proc-macro2",
+      "version": "1",
+      "purl": "pkg:cargo/proc-macro2@1",
+      "bom-ref": "cargo/proc-macro2@1"
+    },
+    {
+      "type": "library",
+      "name": "panic",
+      "version": "abort",
+      "purl": "pkg:cargo/panic@abort",
+      "bom-ref": "cargo/panic@abort"
+    },
+    {
+      "type": "library",
+      "name": "name",
+      "version": "praisonai-derive",
+      "purl": "pkg:cargo/name@praisonai-derive",
+      "bom-ref": "cargo/name@praisonai-derive"
+    },
+    {
+      "type": "library",
+      "name": "path",
+      "version": "src/main.rs",
+      "purl": "pkg:cargo/path@src/main.rs",
+      "bom-ref": "cargo/path@src/main.rs"
+    },
+    {
+      "type": "library",
+      "name": "praisonai",
+      "version": "0.2.0",
+      "purl": "pkg:cargo/praisonai@0.2.0",
+      "bom-ref": "cargo/praisonai@0.2.0"
+    },
+    {
+      "type": "library",
+      "name": "chrono",
+      "version": "0.4",
+      "purl": "pkg:cargo/chrono@0.4",
+      "bom-ref": "cargo/chrono@0.4"
+    },
+    {
+      "type": "library",
+      "name": "dirs",
+      "version": "5",
+      "purl": "pkg:cargo/dirs@5",
+      "bom-ref": "cargo/dirs@5"
+    },
+    {
+      "type": "library",
+      "name": "regex",
+      "version": "1",
+      "purl": "pkg:cargo/regex@1",
+      "bom-ref": "cargo/regex@1"
+    },
+    {
+      "type": "library",
+      "name": "once_cell",
+      "version": "1",
+      "purl": "pkg:cargo/once_cell@1",
+      "bom-ref": "cargo/once_cell@1"
+    },
+    {
+      "type": "library",
+      "name": "lazy_static",
+      "version": "1",
+      "purl": "pkg:cargo/lazy_static@1",
+      "bom-ref": "cargo/lazy_static@1"
+    },
+    {
+      "type": "library",
+      "name": "toml",
+      "version": "0.8",
+      "purl": "pkg:cargo/toml@0.8",
+      "bom-ref": "cargo/toml@0.8"
+    },
+    {
+      "type": "library",
+      "name": "praisonai-derive",
+      "version": "0.2.0",
+      "purl": "pkg:cargo/praisonai-derive@0.2.0",
+      "bom-ref": "cargo/praisonai-derive@0.2.0"
+    },
+    {
+      "type": "library",
+      "name": "@ai-sdk/cohere",
+      "version": "^4.0.37",
+      "purl": "pkg:npm/@ai-sdk/cohere@^4.0.37",
+      "bom-ref": "npm/@ai-sdk/cohere@^4.0.37"
+    },
+    {
+      "type": "library",
+      "name": "praisonai",
+      "version": "file:../praisonai-ts",
+      "purl": "pkg:npm/praisonai@file:../praisonai-ts",
+      "bom-ref": "npm/praisonai@file:../praisonai-ts"
+    },
+    {
+      "type": "library",
+      "name": "@tauri-apps/cli",
+      "version": "^2",
+      "purl": "pkg:npm/@tauri-apps/cli@^2",
+      "bom-ref": "npm/@tauri-apps/cli@^2"
+    },
+    {
+      "type": "library",
+      "name": "playwright",
+      "version": "^1.62.1",
+      "purl": "pkg:npm/playwright@^1.62.1",
+      "bom-ref": "npm/playwright@^1.62.1"
+    },
+    {
+      "type": "library",
+      "name": "tauri-build",
+      "version": "2",
+      "purl": "pkg:cargo/tauri-build@2",
+      "bom-ref": "cargo/tauri-build@2"
+    },
+    {
+      "type": "library",
+      "name": "tauri",
+      "version": "2",
+      "purl": "pkg:cargo/tauri@2",
+      "bom-ref": "cargo/tauri@2"
+    },
+    {
+      "type": "library",
+      "name": "tauri-plugin-opener",
+      "version": "2",
+      "purl": "pkg:cargo/tauri-plugin-opener@2",
+      "bom-ref": "cargo/tauri-plugin-opener@2"
+    },
+    {
+      "type": "library",
+      "name": "log",
+      "version": "0.4",
+      "purl": "pkg:cargo/log@0.4",
+      "bom-ref": "cargo/log@0.4"
+    },
+    {
+      "type": "library",
+      "name": "opt-level",
+      "version": "s",
+      "purl": "pkg:cargo/opt-level@s",
+      "bom-ref": "cargo/opt-level@s"
+    },
+    {
+      "type": "library",
+      "name": "strip",
+      "version": "debuginfo",
+      "purl": "pkg:cargo/strip@debuginfo",
+      "bom-ref": "cargo/strip@debuginfo"
+    },
+    {
+      "type": "library",
+      "name": "links",
+      "version": "tauri-plugin-secrets",
+      "purl": "pkg:cargo/links@tauri-plugin-secrets",
+      "bom-ref": "cargo/links@tauri-plugin-secrets"
+    },
+    {
+      "type": "library",
+      "name": "security-framework",
+      "version": "3",
+      "purl": "pkg:cargo/security-framework@3",
+      "bom-ref": "cargo/security-framework@3"
+    },
+    {
+      "type": "library",
+      "name": "security-framework-sys",
+      "version": "2",
+      "purl": "pkg:cargo/security-framework-sys@2",
+      "bom-ref": "cargo/security-framework-sys@2"
+    },
+    {
+      "type": "library",
+      "name": "tauri-plugin",
+      "version": "2",
+      "purl": "pkg:cargo/tauri-plugin@2",
+      "bom-ref": "cargo/tauri-plugin@2"
+    },
+    {
+      "type": "library",
+      "name": "mcp",
+      "version": ">=1.20.0",
+      "purl": "pkg:pypi/mcp@1.20.0",
+      "bom-ref": "pypi/mcp@>=1.20.0"
+    },
+    {
+      "type": "library",
+      "name": "jsdom",
+      "version": "^30.0.1",
+      "purl": "pkg:npm/jsdom@^30.0.1",
+      "bom-ref": "npm/jsdom@^30.0.1"
+    },
+    {
+      "type": "library",
+      "name": "tauri-plugin-window-state",
+      "version": "2",
+      "purl": "pkg:cargo/tauri-plugin-window-state@2",
+      "bom-ref": "cargo/tauri-plugin-window-state@2"
+    },
+    {
+      "type": "library",
+      "name": "tauri-plugin-single-instance",
+      "version": "2",
+      "purl": "pkg:cargo/tauri-plugin-single-instance@2",
+      "bom-ref": "cargo/tauri-plugin-single-instance@2"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": ">=2.0",
+      "purl": "pkg:pypi/pydantic@2.0",
+      "bom-ref": "pypi/pydantic@>=2.0"
+    },
+    {
+      "type": "library",
+      "name": "textual",
+      "version": ">=0.47.0",
+      "purl": "pkg:pypi/textual@0.47.0",
+      "bom-ref": "pypi/textual@>=0.47.0"
+    },
+    {
+      "type": "library",
+      "name": "python-dotenv",
+      "version": ">=0.19.0",
+      "purl": "pkg:pypi/python-dotenv@0.19.0",
+      "bom-ref": "pypi/python-dotenv@>=0.19.0"
+    },
+    {
+      "type": "library",
+      "name": "toml",
+      "version": ">=0.10.2",
+      "purl": "pkg:pypi/toml@0.10.2",
+      "bom-ref": "pypi/toml@>=0.10.2"
+    },
+    {
+      "type": "library",
+      "name": "aiohttp",
+      "version": ">=3.8.0",
+      "purl": "pkg:pypi/aiohttp@3.8.0",
+      "bom-ref": "pypi/aiohttp@>=3.8.0"
+    },
+    {
+      "type": "library",
+      "name": "openai",
+      "version": ">=1.68.2",
+      "purl": "pkg:pypi/openai@1.68.2",
+      "bom-ref": "pypi/openai@>=1.68.2"
+    },
+    {
+      "type": "library",
+      "name": "posthog",
+      "version": ">=3.0.0",
+      "purl": "pkg:pypi/posthog@3.0.0",
+      "bom-ref": "pypi/posthog@>=3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "every",
+      "version": "day",
+      "purl": "pkg:pypi/every@day",
+      "bom-ref": "pypi/every@day"
+    },
+    {
+      "type": "library",
+      "name": "weekdays",
+      "version": "at",
+      "purl": "pkg:pypi/weekdays@at",
+      "bom-ref": "pypi/weekdays@at"
+    },
+    {
+      "type": "library",
+      "name": "croniter",
+      "version": ">=6.0",
+      "purl": "pkg:pypi/croniter@6.0",
+      "bom-ref": "pypi/croniter@>=6.0"
+    },
+    {
+      "type": "library",
+      "name": "mintlify",
+      "version": "^4.0.300",
+      "purl": "pkg:npm/mintlify@^4.0.300",
+      "bom-ref": "npm/mintlify@^4.0.300"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-mdx",
+      "version": "^3.1.5",
+      "purl": "pkg:npm/eslint-plugin-mdx@^3.1.5",
+      "bom-ref": "npm/eslint-plugin-mdx@^3.1.5"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-react",
+      "version": "^7.37.1",
+      "purl": "pkg:npm/eslint-plugin-react@^7.37.1",
+      "bom-ref": "npm/eslint-plugin-react@^7.37.1"
+    },
+    {
+      "type": "library",
+      "name": "globals",
+      "version": "^15.11.0",
+      "purl": "pkg:npm/globals@^15.11.0",
+      "bom-ref": "npm/globals@^15.11.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript-eslint",
+      "version": "^8.8.1",
+      "purl": "pkg:npm/typescript-eslint@^8.8.1",
+      "bom-ref": "npm/typescript-eslint@^8.8.1"
+    },
+    {
+      "type": "library",
+      "name": "markdown",
+      "version": ">=3.5",
+      "purl": "pkg:pypi/markdown@3.5",
+      "bom-ref": "pypi/markdown@>=3.5"
+    },
+    {
+      "type": "library",
+      "name": "pyparsing",
+      "version": ">=3.0.0",
+      "purl": "pkg:pypi/pyparsing@3.0.0",
+      "bom-ref": "pypi/pyparsing@>=3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "praisonai-code",
+      "version": ">=0.1.8",
+      "purl": "pkg:pypi/praisonai-code@0.1.8",
+      "bom-ref": "pypi/praisonai-code@>=0.1.8"
+    },
+    {
+      "type": "library",
+      "name": "praisonai-bot",
+      "version": ">=0.1.8",
+      "purl": "pkg:pypi/praisonai-bot@0.1.8",
+      "bom-ref": "pypi/praisonai-bot@>=0.1.8"
+    },
+    {
+      "type": "library",
+      "name": "praisonai-train",
+      "version": ">=0.1.8",
+      "purl": "pkg:pypi/praisonai-train@0.1.8",
+      "bom-ref": "pypi/praisonai-train@>=0.1.8"
+    },
+    {
+      "type": "library",
+      "name": "praisonai-browser",
+      "version": ">=0.1.8",
+      "purl": "pkg:pypi/praisonai-browser@0.1.8",
+      "bom-ref": "pypi/praisonai-browser@>=0.1.8"
+    },
+    {
+      "type": "library",
+      "name": "praisonai-mcp",
+      "version": ">=0.1.10",
+      "purl": "pkg:pypi/praisonai-mcp@0.1.10",
+      "bom-ref": "pypi/praisonai-mcp@>=0.1.10"
+    },
+    {
+      "type": "library",
+      "name": "praisonai-sandbox",
+      "version": ">=0.1.8",
+      "purl": "pkg:pypi/praisonai-sandbox@0.1.8",
+      "bom-ref": "pypi/praisonai-sandbox@>=0.1.8"
+    },
+    {
+      "type": "library",
+      "name": "praisonai-deploy",
+      "version": ">=0.1.8",
+      "purl": "pkg:pypi/praisonai-deploy@0.1.8",
+      "bom-ref": "pypi/praisonai-deploy@>=0.1.8"
+    }
+  ]
+}
